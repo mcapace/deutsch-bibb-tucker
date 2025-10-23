@@ -31,6 +31,12 @@
 
   --background: #FAFAF9;
   --foreground: #1F2937;
+  
+  /* Enhanced Readability */
+  --text-primary: #1F2937;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+  --text-light: #9CA3AF;
 }
 
 @theme inline {
