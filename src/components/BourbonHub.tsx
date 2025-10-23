@@ -80,33 +80,46 @@ export default function BourbonHub() {
   ];
 
   return (
-    <section id="hub" className="py-20 bg-gradient-to-b from-black to-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            The Bourbon Hub
+    <section id="hub" className="section-padding bg-gradient-to-br from-deep-black via-oak-brown/10 to-deep-black relative overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0 bg-[url('/assets/images/wood-texture.jpg')] opacity-5 bg-cover bg-center" />
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-600/30 to-transparent" />
+      
+      <div className="max-w-7xl mx-auto relative z-10">
+        <div className="text-center mb-20">
+          <div className="inline-block mb-6">
+            <span className="text-bourbon-amber text-sm font-medium tracking-widest uppercase">
+              Interactive Experience
+            </span>
+          </div>
+          <h2 className="text-5xl md:text-7xl font-bold mb-8">
+            <span className="bg-gradient-to-r from-amber-100 via-amber-200 to-amber-300 bg-clip-text text-transparent">
+              The Bourbon Hub
+            </span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-amber-100/90 max-w-4xl mx-auto leading-relaxed font-light">
             Your comprehensive destination for discovering, learning, and purchasing 
             the finest American bourbons from Bibb & Tucker and Redemption.
           </p>
         </div>
 
-        {/* Tab Navigation */}
-        <div className="flex flex-wrap justify-center mb-12">
-          {tabs.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`px-6 py-3 m-2 rounded-full font-medium transition-colors duration-200 ${
-                activeTab === tab.id
-                  ? 'bg-amber-600 text-white'
-                  : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
+        {/* Premium Tab Navigation */}
+        <div className="flex flex-wrap justify-center mb-16">
+          <div className="bg-black/40 backdrop-blur-sm rounded-2xl p-2 border border-amber-600/20">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`px-8 py-4 m-1 rounded-xl font-semibold transition-all duration-300 ${
+                  activeTab === tab.id
+                    ? 'bg-gradient-to-r from-amber-600 to-amber-700 text-white shadow-lg'
+                    : 'text-amber-200 hover:text-white hover:bg-amber-600/20'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Tab Content */}

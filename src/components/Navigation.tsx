@@ -24,41 +24,52 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-black/95 backdrop-blur-md' : 'bg-transparent'
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      isScrolled 
+        ? 'bg-black/95 backdrop-blur-xl border-b border-amber-600/20 shadow-2xl' 
+        : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-20">
+          {/* Premium Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center">
-              <span className="text-white text-xl font-bold">Deutsch</span>
-              <span className="text-amber-400 text-xl font-light ml-2">Family</span>
+            <div className="flex items-center group">
+              <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-white font-bold text-sm">D</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-white text-xl font-bold tracking-tight">Deutsch</span>
+                <span className="text-bourbon-amber text-xs font-medium tracking-widest uppercase">Family</span>
+              </div>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-center space-x-8">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-white hover:text-amber-400 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="text-amber-100 hover:text-bourbon-amber px-4 py-2 text-sm font-medium transition-all duration-300 relative group"
                 >
                   {item.name}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-bourbon-amber transition-all duration-300 group-hover:w-full" />
                 </a>
               ))}
             </div>
           </div>
 
-          {/* CTA Button */}
+          {/* Premium CTA Button */}
           <div className="hidden md:block">
             <a
               href="#where-to-buy"
-              className="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200"
+              className="premium-button text-sm px-6 py-3 inline-flex items-center group"
             >
-              Shop Now
+              <span>Shop Collection</span>
+              <svg className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+              </svg>
             </a>
           </div>
 
