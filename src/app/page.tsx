@@ -9,7 +9,7 @@ export default function Home() {
   const scale = useTransform(scrollYProgress, [0, 0.2], [1, 0.8]);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen scroll-smooth">
       {/* Hero Section */}
       <motion.section
         id="hero"
@@ -93,14 +93,14 @@ export default function Home() {
                 🥃 M Shanken Communications | Whisky Advocate Platform
               </motion.div>
 
-              <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-                <span className="block text-4xl lg:text-5xl text-amber-700 font-semibold mb-4">
+              <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 mb-8 leading-tight">
+                <span className="block text-4xl lg:text-5xl text-amber-700 font-semibold mb-6">
                   The Bourbon Hub
                 </span>
-                <span className="block text-2xl lg:text-3xl text-slate-700 font-medium mb-6">
+                <span className="block text-2xl lg:text-3xl text-slate-700 font-medium mb-8">
                   Where Authority Meets Innovation
                 </span>
-          </h1>
+              </h1>
 
               <p className="text-xl text-slate-900 mb-8 max-w-3xl font-medium leading-relaxed">
                 <strong>Establishing Deutsch Family Wine & Spirits as THE bourbon voice during the industry's most critical sales period.</strong>
@@ -188,7 +188,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">The Challenge</h3>
               <p className="text-lg text-slate-800 mb-4 font-medium leading-relaxed">
@@ -208,7 +208,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">The Solution</h3>
               <h4 className="text-3xl font-semibold text-amber-700 mb-6">THE BOURBON HUB</h4>
@@ -238,7 +238,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">ONE UNIFIED STORY</h4>
                 <p className="text-slate-800 font-medium leading-relaxed mb-4">
@@ -254,7 +254,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">STRATEGIC TIMING</h4>
                 <p className="text-slate-800 font-medium leading-relaxed mb-4">
@@ -275,7 +275,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">THE RIGHT AUDIENCE</h4>
                 <p className="text-slate-800 font-medium leading-relaxed mb-4">
@@ -438,7 +438,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">What Is The Bourbon Hub?</h3>
               <p className="text-lg text-slate-800 mb-4 font-medium leading-relaxed">
@@ -458,7 +458,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">BRAND STORYTELLING</h4>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -475,7 +475,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">PRODUCT EDUCATION</h4>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -492,7 +492,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">CONSUMER ENGAGEMENT</h4>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -509,7 +509,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">VISUAL EXCELLENCE</h4>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -548,7 +548,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">Why Gold Roast Changes Everything</h3>
               <p className="text-lg text-slate-800 mb-6 font-medium leading-relaxed">
@@ -590,7 +590,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">Coffee Enthusiasts</h4>
                 <p className="text-slate-800 font-medium leading-relaxed">
@@ -603,7 +603,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">Bourbon Drinkers</h4>
                 <p className="text-slate-800 font-medium leading-relaxed">
@@ -616,7 +616,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h4 className="text-xl font-semibold text-amber-700 mb-4">Gift Buyers</h4>
                 <p className="text-slate-800 font-medium leading-relaxed">
@@ -653,7 +653,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">THE BOURBON HUB (Shared Platform)</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -672,7 +672,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">EDITORIAL CONTENT (5 Sponsored Articles)</h3>
                 <div className="space-y-3">
@@ -702,7 +702,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">WHISKY ADVOCATE STORE PROMOTIONS (4 Campaigns)</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -721,7 +721,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">EMAIL MARKETING</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -738,7 +738,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">PAID SOCIAL MEDIA</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -755,7 +755,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">ANALYTICS & REPORTING</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -792,7 +792,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <div className="overflow-x-auto">
                 <table className="w-full text-center">
@@ -834,7 +834,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">What This Includes:</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -856,7 +856,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Not Included (Client Responsibilities):</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -929,7 +929,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">The Bourbon Hub Approach:</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1005,7 +1005,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">November - December 2025: Holiday Discovery</h3>
                 <h4 className="text-lg font-semibold text-slate-900 mb-3">THE GIFTING SEASON</h4>
@@ -1036,7 +1036,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">January - February 2026: New Year Momentum</h3>
                 <h4 className="text-lg font-semibold text-slate-900 mb-3">THE EXPLORATION SEASON</h4>
@@ -1067,7 +1067,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">March 2026: Spring Festival Preparation</h3>
                 <h4 className="text-lg font-semibold text-slate-900 mb-3">THE ANTICIPATION SEASON</h4>
@@ -1152,7 +1152,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">AWARENESS METRICS</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1169,7 +1169,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">ENGAGEMENT METRICS</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1186,7 +1186,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">CONSIDERATION METRICS</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1203,7 +1203,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">CONVERSION METRICS</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1258,7 +1258,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Digital Advertising</h3>
                 <div className="space-y-3">
@@ -1275,7 +1275,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Brand Awareness</h3>
                 <div className="space-y-3">
@@ -1292,7 +1292,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Content Marketing</h3>
                 <div className="space-y-3">
@@ -1309,7 +1309,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Category Authority</h3>
                 <div className="space-y-3">
@@ -1352,7 +1352,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">This $309,000 Investment Delivers:</h3>
                 <div className="space-y-4">
@@ -1380,7 +1380,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <div className="space-y-4">
                   <div>
@@ -1427,7 +1427,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">Pre-Launch (October - Early November 2025)</h3>
               <div className="grid md:grid-cols-2 gap-8">
@@ -1476,7 +1476,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Launch & Active Campaign</h3>
                 <div className="space-y-4">
@@ -1508,7 +1508,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <div className="space-y-4">
                   <div>
@@ -1560,7 +1560,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Creative Assets</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1578,7 +1578,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Strategic Input</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1595,7 +1595,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Operational Coordination</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1612,7 +1612,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">What We Provide</h3>
                 <ul className="text-slate-800 font-medium space-y-2">
@@ -1651,7 +1651,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">The Opportunity</h3>
               <p className="text-lg text-slate-800 font-medium leading-relaxed mb-4">
@@ -1674,7 +1674,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Next Steps</h3>
                 <ol className="text-slate-800 font-medium space-y-2">
@@ -1691,7 +1691,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 viewport={{ once: true }}
-                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+                className="bg-white/95 backdrop-blur-sm rounded-2xl card-spacing shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
               >
                 <h3 className="text-xl font-semibold text-amber-700 mb-4">Contact</h3>
                 <div className="space-y-3">
@@ -1729,7 +1729,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+              className="bg-white/95 backdrop-blur-sm rounded-3xl card-spacing shadow-2xl border border-amber-200/50 mb-16 hover:shadow-3xl transition-all duration-300"
             >
               <p className="text-lg text-slate-800 font-medium leading-relaxed mb-6">
                 The bourbon category is at an inflection point:
@@ -1846,14 +1846,14 @@ export default function Home() {
               </motion.div>
             </div>
 
-            <div className="mt-12 bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-8 shadow-2xl text-white max-w-4xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Campaign Investment: $309,000</h3>
-              <p className="text-lg font-semibold mb-6">
-                <strong>November 15, 2025 - March 31, 2026</strong> | Whisky Advocate Platform
-              </p>
+            <div className="mt-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-10 shadow-2xl text-white max-w-5xl mx-auto">
               <div className="text-center">
-                <p className="text-lg font-semibold text-amber-100">
-                  Complete integrated marketing program with editorial authority, sustained presence, and measurable impact
+                <h3 className="text-3xl font-bold mb-6">Campaign Investment: $309,000</h3>
+                <p className="text-xl font-semibold mb-8">
+                  <strong>November 15, 2025 - March 31, 2026</strong> | Whisky Advocate Platform
+                </p>
+                <p className="text-lg font-medium text-amber-100 leading-relaxed max-w-3xl mx-auto">
+                  Complete integrated marketing program with editorial authority, sustained presence, and measurable impact across the industry's most critical bourbon sales period.
                 </p>
               </div>
             </div>
