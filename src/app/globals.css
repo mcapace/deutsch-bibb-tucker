@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-/* Consistent font weights */
+/* Consistent font weights - matching the reference structure */
 .font-light {
   font-weight: 300;
 }
@@ -86,14 +86,65 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* Ensure all text uses consistent fonts */
-p, span, div {
+/* Clean, modern font structure across the site */
+body, p, span, div {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-/* Headings use Playfair Display */
+/* Titles - 20-24px, semi-bold, dark grey */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.4;
+  color: #333333;
+}
+
+/* Main headings - larger size */
+h1 {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem; /* 32px */
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+}
+
+/* Body text - 16-18px, regular weight, lighter grey */
+.body-text {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* Product titles - clean, modern */
+.product-title {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 0.5rem;
+}
+
+/* Product descriptions */
+.product-description {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.6;
 }
 
 /* Premium Components */

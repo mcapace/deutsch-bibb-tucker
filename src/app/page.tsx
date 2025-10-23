@@ -514,8 +514,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="bg-amber-50/50 rounded-xl p-4">
-                <h4 className="text-lg font-bold text-slate-800 mb-3">Innovation Meets Tradition</h4>
-                <p className="text-slate-900 font-semibold">
+                <h4 className="product-title">Innovation Meets Tradition</h4>
+                <p className="product-description">
                   Three expressions, endless possibilities. The bourbon with an expression for every moment, every palate, every occasion.
                 </p>
               </div>
@@ -586,8 +586,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="bg-red-50/50 rounded-xl p-4">
-                <h4 className="text-lg font-bold text-slate-800 mb-3">Pre-Prohibition Craft</h4>
-                <p className="text-slate-900 font-semibold">
+                <h4 className="product-title">Pre-Prohibition Craft</h4>
+                <p className="product-description">
                   Heritage bourbon authority that anchors the category while Bibb & Tucker innovates. Made right since the beginning.
                 </p>
               </div>
@@ -697,12 +697,12 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">Bibb & Tucker: Innovation Meets Tradition</h3>
               <div className="space-y-6">
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Brand Voice</h4>
-                  <p className="text-slate-900 font-semibold">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
+                  <h4 className="product-title">Brand Voice</h4>
+                  <p className="product-description">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Key Themes</h4>
-                  <ul className="text-slate-900 font-semibold space-y-2">
+                  <h4 className="product-title">Key Themes</h4>
+                  <ul className="product-description space-y-2">
                     <li>• Three expressions, endless possibilities</li>
                     <li>• The bourbon that bridges worlds</li>
                     <li>• Innovation rooted in craft</li>
@@ -710,8 +710,8 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Tone</h4>
-                  <p className="text-slate-900 font-semibold">Bold, friendly, educational, aspirational</p>
+                  <h4 className="product-title">Tone</h4>
+                  <p className="product-description">Bold, friendly, educational, aspirational</p>
                 </div>
               </div>
             </motion.div>
@@ -726,12 +726,12 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-slate-900 mb-6">Redemption: Pre-Prohibition Craft</h3>
               <div className="space-y-6">
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Brand Voice</h4>
-                  <p className="text-slate-900 font-semibold">Authoritative but accessible, heritage-focused but not old-fashioned</p>
+                  <h4 className="product-title">Brand Voice</h4>
+                  <p className="product-description">Authoritative but accessible, heritage-focused but not old-fashioned</p>
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Key Themes</h4>
-                  <ul className="text-slate-900 font-semibold space-y-2">
+                  <h4 className="product-title">Key Themes</h4>
+                  <ul className="product-description space-y-2">
                     <li>• Pre-Prohibition authenticity</li>
                     <li>• Small batch integrity</li>
                     <li>• Made right, not just made fast</li>
@@ -739,8 +739,8 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Tone</h4>
-                  <p className="text-slate-900 font-semibold">Authoritative, warm, craft-focused, timeless</p>
+                  <h4 className="product-title">Tone</h4>
+                  <p className="product-description">Authoritative, warm, craft-focused, timeless</p>
                 </div>
               </div>
             </motion.div>
@@ -1165,10 +1165,10 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
-              CAMPAIGN INVESTMENT
+              $309K TOTAL DIGITAL BUDGET
             </h2>
-            <p className="text-xl text-slate-900 max-w-3xl mx-auto font-semibold leading-relaxed">
-              <strong>A comprehensive investment that delivers maximum impact across all marketing channels.</strong>
+            <p className="text-xl text-slate-900 max-w-3xl mx-auto font-medium leading-relaxed">
+              <strong>Comprehensive Whisky Advocate partnership with detailed content strategy, store promotions, and multi-channel amplification.</strong>
             </p>
           </motion.div>
 
@@ -1180,24 +1180,157 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-12 shadow-2xl text-white text-center"
             >
-              <h3 className="text-3xl font-semibold mb-8">Total Campaign Investment</h3>
+              <h3 className="text-3xl font-semibold mb-8">Total Digital Package</h3>
               <div className="text-6xl font-bold mb-4">$309,000</div>
               <p className="text-xl font-semibold mb-8">November 15, 2025 - March 31, 2026</p>
               
-              <div className="grid md:grid-cols-2 gap-8 mt-8">
+              <div className="grid md:grid-cols-3 gap-6 mt-8">
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
-                  <h4 className="text-2xl font-semibold mb-2">Bibb & Tucker</h4>
-                  <div className="text-3xl font-bold mb-2">$202,000</div>
-                  <p className="text-amber-100 font-semibold">Innovation meets tradition</p>
+                  <h4 className="text-xl font-semibold mb-2">Total Media</h4>
+                  <div className="text-2xl font-bold mb-2">$263,225</div>
+                  <p className="text-amber-100 font-medium">Whisky Advocate content & store</p>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
-                  <h4 className="text-2xl font-semibold mb-2">Redemption</h4>
-                  <div className="text-3xl font-bold mb-2">$107,000</div>
-                  <p className="text-amber-100 font-semibold">Pre-Prohibition craft</p>
+                  <h4 className="text-xl font-semibold mb-2">Production</h4>
+                  <div className="text-2xl font-bold mb-2">$45,775</div>
+                  <p className="text-amber-100 font-medium">Creative & content creation</p>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+                  <h4 className="text-xl font-semibold mb-2">Campaign Duration</h4>
+                  <div className="text-2xl font-bold mb-2">4.5 Months</div>
+                  <p className="text-amber-100 font-medium">Q4 2025 - Q1 2026</p>
                 </div>
               </div>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Detailed Campaign Breakdown */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              DETAILED CAMPAIGN BREAKDOWN
+            </h2>
+            <p className="text-xl text-slate-900 max-w-3xl mx-auto font-medium leading-relaxed">
+              <strong>Comprehensive Whisky Advocate partnership with specific content pieces, store promotions, and multi-channel amplification.</strong>
+            </p>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Bibb & Tucker - $202K */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+            >
+              <h3 className="text-2xl font-semibold text-amber-700 mb-6">BIBB & TUCKER - $202K</h3>
+              
+              <div className="space-y-6">
+                <div className="bg-amber-50/50 rounded-xl p-4">
+                  <h4 className="product-title">Q4 2025 - $102.5K</h4>
+                  <ul className="product-description space-y-2">
+                    <li>• Landing Page Hub (both brands) - $1K production</li>
+                    <li>• 1x Content Piece November 2025 - $36K</li>
+                    <li>• Article + Homepage Placement - $1K production</li>
+                    <li>• 2x Newsletters - $10K</li>
+                    <li>• Paid Social - $15K ($10.5K media + $4.5K production)</li>
+                    <li>• Native Extension - $10K ($8.3K media + $1.7K production)</li>
+                    <li>• 1x Content Piece December 2025 - $36K</li>
+                    <li>• WA Store Promotion Nov/Dec - $29.5K</li>
+                  </ul>
+                </div>
+
+                <div className="bg-amber-50/50 rounded-xl p-4">
+                  <h4 className="product-title">Q1 2026 - $99.5K</h4>
+                  <ul className="product-description space-y-2">
+                    <li>• WA Store Promotion Feb/March - $29.5K</li>
+                    <li>• 1x Content Piece February 2026 - $36K</li>
+                    <li>• Branding Promotions Jan-March - $34K</li>
+                    <li>• Monthly Dedicated Emails (3x) - $15K</li>
+                    <li>• Monthly Instagram Posts/Reels - $10K</li>
+                    <li>• WA.com Banners + PMP Extension - $9K</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Redemption - $107K */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-red-200/50"
+            >
+              <h3 className="text-2xl font-semibold text-red-700 mb-6">REDEMPTION - $107K</h3>
+              
+              <div className="space-y-6">
+                <div className="bg-red-50/50 rounded-xl p-4">
+                  <h4 className="product-title">Q4 2025 - $48.5K</h4>
+                  <ul className="product-description space-y-2">
+                    <li>• 1x Content Piece December 2026 - $28.5K</li>
+                    <li>• Article + Homepage Placement - $1K production</li>
+                    <li>• 1x Newsletter - $5K</li>
+                    <li>• Paid Social - $12.5K ($8.75K media + $3.75K production)</li>
+                    <li>• Native Extension - $10K ($8.3K media + $1.7K production)</li>
+                    <li>• WA Store Promotion Nov/Dec - $20K</li>
+                  </ul>
+                </div>
+
+                <div className="bg-red-50/50 rounded-xl p-4">
+                  <h4 className="product-title">Q1 2026 - $58.5K</h4>
+                  <ul className="product-description space-y-2">
+                    <li>• 1x Content Piece March 2026 - $28.5K</li>
+                    <li>• Branding Promotions Jan-March - $30K</li>
+                    <li>• Monthly Dedicated Emails (3x) - $15K</li>
+                    <li>• Monthly Instagram Posts/Reels - $10K</li>
+                    <li>• WA.com Banners + PMP Extension - $5K</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Whisky Advocate Store Details */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="mt-12 bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-8 shadow-2xl text-white"
+          >
+            <h3 className="text-2xl font-semibold mb-6 text-center">WHISKY ADVOCATE STORE PROMOTIONS</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-semibold mb-4">Store Assets Include:</h4>
+                <ul className="space-y-2">
+                  <li>• Hero Image + Banners ($5K each period)</li>
+                  <li>• Custom Storefront ($2.5K each period)</li>
+                  <li>• Dedicated Emails (2x for Bibb & Tucker, 1x for Redemption)</li>
+                  <li>• Paid Social Integration ($12K Bibb & Tucker, $7.5K Redemption)</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold mb-4">Content Strategy:</h4>
+                <ul className="space-y-2">
+                  <li>• 3x Bibb & Tucker Articles (Nov, Dec, Feb)</li>
+                  <li>• 2x Redemption Articles (Dec, March)</li>
+                  <li>• Homepage Placements for all content</li>
+                  <li>• Native Extensions across Whisky Advocate network</li>
+                </ul>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
