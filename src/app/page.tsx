@@ -162,12 +162,15 @@ export default function Home() {
                       e.currentTarget.style.display = 'none';
                       const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
                       if (nextElement) {
-                        nextElement.style.display = 'block';
+                        nextElement.style.display = 'flex';
                       }
                     }}
                   />
-                  <div className="text-white font-bold text-2xl flex items-center justify-center" style={{display: 'none'}}>
-                    <span>B&T</span>
+                  <div className="text-white font-bold text-2xl flex items-center justify-center w-full h-full" style={{display: 'none'}}>
+                    <div className="text-center">
+                      <div className="text-4xl mb-2">🥃</div>
+                      <div className="text-lg">B&T</div>
+                    </div>
                   </div>
                   </div>
                   <div className="text-4xl font-light text-slate-800">×</div>
@@ -184,8 +187,11 @@ export default function Home() {
                         }
                       }}
                     />
-                      <div className="text-white font-bold text-2xl flex items-center justify-center" style={{display: 'none'}}>
-                        <span>R</span>
+                      <div className="text-white font-bold text-2xl flex items-center justify-center w-full h-full" style={{display: 'none'}}>
+                        <div className="text-center">
+                          <div className="text-4xl mb-2">🍷</div>
+                          <div className="text-lg">R</div>
+                        </div>
                       </div>
                   </div>
             </div>
