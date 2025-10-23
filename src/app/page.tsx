@@ -422,7 +422,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Gold Roast</div>
@@ -437,7 +440,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Double Char</div>
@@ -452,7 +458,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Classic 6</div>
@@ -485,7 +494,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Rye</div>
@@ -500,7 +512,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Bourbon</div>
@@ -515,7 +530,10 @@ export default function Home() {
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
-                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (nextElement) {
+                          nextElement.style.display = 'flex';
+                        }
                       }}
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Single Barrel</div>
