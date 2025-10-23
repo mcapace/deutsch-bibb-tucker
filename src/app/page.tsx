@@ -128,7 +128,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
                 className="inline-block bg-gradient-to-r from-amber-600 to-orange-700 text-white px-6 py-3 rounded-full text-sm font-semibold mb-6 shadow-lg"
               >
-                🥃 M Shanklen Communications | Whisky Advocate Platform
+                🥃 M Shanken Communications | Whisky Advocate Platform
               </motion.div>
 
               <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
@@ -138,7 +138,7 @@ export default function Home() {
                 <span className="block text-3xl lg:text-4xl text-slate-700 font-medium">
                   Bibb & Tucker + Redemption
                 </span>
-              </h1>
+          </h1>
 
               <p className="text-xl text-slate-700 mb-8 max-w-3xl font-medium leading-relaxed">
                 <strong>Establishing Deutsch Family Wine & Spirits as the bourbon authority during the industry's most critical sales period.</strong> An integrated digital campaign that positions Bibb & Tucker and Redemption as the essential voices in American whiskey through strategic storytelling on Whisky Advocate.
@@ -1164,7 +1164,7 @@ export default function Home() {
             className="text-center"
           >
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-              M SHANKLEN COMMUNICATIONS
+              M SHANKEN COMMUNICATIONS
               </h2>
             <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-12">
               <strong>Ready to create the most sophisticated bourbon marketing program in the industry?</strong> Let's discuss how we can elevate Bibb & Tucker and Redemption's brand story through strategic Whisky Advocate partnerships.
