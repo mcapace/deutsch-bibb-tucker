@@ -94,12 +94,30 @@ export default function Home() {
                 className="mb-8"
               >
                 <div className="flex justify-center lg:justify-start items-center space-x-8">
-                  <div className="w-40 h-40 bg-gradient-to-br from-amber-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-2xl">
-                    <span className="text-white font-bold text-2xl">B&T</span>
+                  <div className="w-40 h-40 bg-gradient-to-br from-amber-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-2xl p-4">
+                    <img 
+                      src="/images/bibb-tucker-logo.png" 
+                      alt="Bibb & Tucker Logo" 
+                      className="w-full h-full object-contain"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'block';
+                      }}
+                    />
+                    <span className="text-white font-bold text-2xl" style={{display: 'none'}}>B&T</span>
                   </div>
                   <div className="text-4xl font-light text-slate-600">×</div>
-                  <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl">
-                    <span className="text-white font-bold text-2xl">R</span>
+                  <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl p-4">
+                    <img 
+                      src="/images/redemption-logo.png" 
+                      alt="Redemption Logo" 
+                      className="w-full h-full object-contain"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'block';
+                      }}
+                    />
+                    <span className="text-white font-bold text-2xl" style={{display: 'none'}}>R</span>
                   </div>
             </div>
           </motion.div>
@@ -355,6 +373,154 @@ export default function Home() {
                 <h4 className="text-xl font-bold mb-4">Campaign Strategy</h4>
                 <p className="font-semibold">
                   <strong>While we showcase all three expressions, Gold Roast LEADS the narrative.</strong> We're not hiding the other expressions - we're leading with innovation, then revealing the full portfolio depth.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Showcase Section */}
+      <section className="py-24 bg-gradient-to-br from-stone-50/50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+              THE BOURBON PORTFOLIO
+            </h2>
+            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed">
+              <strong>Two complementary brands representing the complete spectrum of American bourbon excellence.</strong>
+            </p>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+            >
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Bibb & Tucker Collection</h3>
+              <div className="grid grid-cols-3 gap-4 mb-6">
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/bibb-tucker-gold-roast.png" 
+                      alt="Bibb & Tucker Gold Roast" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Gold Roast</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Gold Roast</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/bibb-tucker-double-char.png" 
+                      alt="Bibb & Tucker Double Char" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Double Char</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Double Char</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/bibb-tucker-classic-6.png" 
+                      alt="Bibb & Tucker Classic 6" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Classic 6</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Classic 6</p>
+                </div>
+              </div>
+              <div className="bg-amber-50/50 rounded-xl p-4">
+                <h4 className="text-lg font-bold text-slate-800 mb-3">Innovation Meets Tradition</h4>
+                <p className="text-slate-700 font-semibold">
+                  Three expressions, endless possibilities. The bourbon with an expression for every moment, every palate, every occasion.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-red-200/50"
+            >
+              <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Redemption Collection</h3>
+              <div className="grid grid-cols-3 gap-4 mb-6">
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/redemption-rye.png" 
+                      alt="Redemption Rye" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Rye</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Rye</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/redemption-bourbon.png" 
+                      alt="Redemption Bourbon" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Bourbon</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Bourbon</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
+                    <img 
+                      src="/images/redemption-single-barrel.png" 
+                      alt="Redemption Single Barrel" 
+                      className="w-full h-full object-contain rounded-lg"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                        e.currentTarget.nextElementSibling.style.display = 'flex';
+                      }}
+                    />
+                    <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Single Barrel</div>
+                  </div>
+                  <p className="text-xs font-semibold text-slate-700">Single Barrel</p>
+                </div>
+              </div>
+              <div className="bg-red-50/50 rounded-xl p-4">
+                <h4 className="text-lg font-bold text-slate-800 mb-3">Pre-Prohibition Craft</h4>
+                <p className="text-slate-700 font-semibold">
+                  Heritage bourbon authority that anchors the category while Bibb & Tucker innovates. Made right since the beginning.
                 </p>
               </div>
             </motion.div>
@@ -997,33 +1163,84 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
-              Let's Build Your Story
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+              M SHANKLEN COMMUNICATIONS
               </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-              Ready to create the most sophisticated bourbon marketing program in the industry? Let's discuss how we can elevate Bibb & Tucker and Redemption's brand story.
+            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-12">
+              <strong>Ready to create the most sophisticated bourbon marketing program in the industry?</strong> Let's discuss how we can elevate Bibb & Tucker and Redemption's brand story through strategic Whisky Advocate partnerships.
             </p>
-            
-            <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30 max-w-2xl mx-auto">
-              <div className="text-center mb-6">
-                <div className="text-2xl font-bold text-slate-800">Deutsch Family Brands</div>
-                <div className="text-lg text-amber-700 font-medium">Marketing Team</div>
-              </div>
-              
-              <div className="space-y-3 text-slate-600 font-light">
-                <div className="flex items-center justify-center">
-                  <Mail className="mr-3 text-amber-600" size={18} />
-                  <span>Deutsch Family Wine & Spirits</span>
+
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+              >
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <span className="text-white font-bold text-2xl">MM</span>
+                  </div>
+                  <div className="text-2xl font-bold text-slate-900">MIRIAM MORGENSTERN</div>
+                  <div className="text-lg text-amber-700 font-semibold">SVP, Senior Marketing Director</div>
                 </div>
-                <div className="flex items-center justify-center">
-                  <MapPin className="mr-3 text-amber-600" size={18} />
-                  <span>Premium Bourbon Marketing Division</span>
+
+                <div className="space-y-4 text-slate-700 font-semibold">
+                  <div className="flex items-center justify-center">
+                    <Phone className="mr-3 text-amber-600" size={20} />
+                    <span className="font-bold">P 917-355-4660</span>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <Mail className="mr-3 text-amber-600" size={20} />
+                    <span className="font-bold">mmorgenstern@mshanken.com</span>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+              >
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <span className="text-white font-bold text-2xl">AW</span>
+                  </div>
+                  <div className="text-2xl font-bold text-slate-900">ALYSSA WEISS</div>
+                  <div className="text-lg text-amber-700 font-semibold">Head of Luxury Advertising</div>
+                </div>
+
+                <div className="space-y-4 text-slate-700 font-semibold">
+                  <div className="flex items-center justify-center">
+                    <Phone className="mr-3 text-amber-600" size={20} />
+                    <span className="font-bold">P 917-363-4930</span>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <Mail className="mr-3 text-amber-600" size={20} />
+                    <span className="font-bold">aweiss@mshanken.com</span>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+
+            <div className="mt-12 bg-gradient-to-r from-amber-600 to-orange-700 rounded-3xl p-8 shadow-2xl text-white max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">Campaign Investment: $309,000</h3>
+              <p className="text-lg font-semibold mb-6">
+                <strong>November 15, 2025 - March 31, 2026</strong> | Whisky Advocate Platform
+              </p>
+              <div className="grid md:grid-cols-2 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold mb-2">$202,000</div>
+                  <div className="text-amber-100 font-semibold">Bibb & Tucker</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold mb-2">$107,000</div>
+                  <div className="text-amber-100 font-semibold">Redemption</div>
+                </div>
               </div>
-                <div className="flex items-center justify-center">
-                  <Phone className="mr-3 text-amber-600" size={18} />
-                  <span className="font-medium">Contact: Marketing Team</span>
-            </div>
-            </div>
             </div>
           </motion.div>
         </div>
