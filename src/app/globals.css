@@ -65,6 +65,37 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+/* Consistent font weights */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* Ensure all text uses consistent fonts */
+p, span, div {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
 /* Premium Components */
 .premium-card {
   background: linear-gradient(135deg, rgba(31, 41, 55, 0.8) 0%, rgba(17, 24, 39, 0.6) 100%);
