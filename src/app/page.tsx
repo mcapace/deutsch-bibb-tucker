@@ -625,15 +625,15 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Primary: The Curious Enthusiast</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Primary: The Curious Enthusiast</h3>
               <div className="space-y-6">
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Demographics</h4>
-                  <p className="text-slate-900 font-semibold">Ages 30-55, HHI $75K+, 60% male / 40% female</p>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Demographics</h4>
+                  <p className="text-slate-900 font-medium">Ages 30-55, HHI $75K+, 60% male / 40% female</p>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Psychographics</h4>
-                  <ul className="text-slate-900 font-semibold space-y-2">
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Psychographics</h4>
+                  <ul className="text-slate-900 font-medium space-y-2">
                     <li>• Appreciates quality over quantity</li>
                     <li>• Seeks authentic stories and craftsmanship</li>
                     <li>• Entertains at home regularly</li>
@@ -661,25 +661,25 @@ export default function Home() {
               className="space-y-6"
             >
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50">
-                <h4 className="text-xl font-bold text-slate-900 mb-4">Secondary: The Gift Seeker</h4>
+                <h4 className="text-xl font-semibold text-slate-900 mb-4">Secondary: The Gift Seeker</h4>
                 <div className="bg-amber-50/50 rounded-xl p-4 mb-4">
-                  <p className="text-slate-900 font-semibold leading-relaxed mb-3">
+                  <p className="text-slate-900 font-medium leading-relaxed mb-3">
                     <strong>Ages 25-60, HHI $60K+, all genders.</strong> Wants to give thoughtful, impressive gifts and seeks guidance on quality purchases.
                   </p>
                 </div>
-                <p className="text-slate-900 font-semibold">
+                <p className="text-slate-900 font-medium">
                   May not be a bourbon drinker themselves but knows recipients appreciate bourbon and needs education on what makes one bourbon different from another.
                 </p>
               </div>
 
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50">
-                <h4 className="text-xl font-bold text-slate-900 mb-4">Tertiary: The Coffee Crossover</h4>
+                <h4 className="text-xl font-semibold text-slate-900 mb-4">Tertiary: The Coffee Crossover</h4>
                 <div className="bg-amber-50/50 rounded-xl p-4 mb-4">
-                  <p className="text-slate-900 font-semibold leading-relaxed mb-3">
+                  <p className="text-slate-900 font-medium leading-relaxed mb-3">
                     <strong>Ages 25-45, HHI $50K+, urban/suburban.</strong> Coffee connoisseur with foodie sensibility who may think "I don't like whiskey."
                   </p>
                 </div>
-                <p className="text-slate-900 font-semibold">
+                <p className="text-slate-900 font-medium">
                   Bourbon-curious but intimidated, needs a familiar entry point (coffee) and could become loyal bourbon consumer with right introduction.
                 </p>
               </div>
@@ -785,28 +785,28 @@ export default function Home() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Leaf className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-1">Heritage Storytelling</h4>
                     <p className="text-slate-700 font-medium text-sm">Premium positioning</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Award className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-1">Brand Differentiation</h4>
                     <p className="text-slate-700 font-medium text-sm">Market leadership</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Heart className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-1">Emotional Connection</h4>
                     <p className="text-slate-700 font-medium text-sm">Brand loyalty</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Crown className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-1">Premium Positioning</h4>
@@ -825,7 +825,7 @@ export default function Home() {
             >
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-green-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-amber-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Leaf className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bourbon Production</h4>
@@ -837,7 +837,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-green-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-amber-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Crown className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Hand-Crafted Excellence</h4>
@@ -849,7 +849,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-green-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-amber-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Heart className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Family Heritage</h4>
