@@ -300,7 +300,7 @@ export default function Home() {
                 <li>• Interactive flavor profile matcher</li>
                 <li>• Cocktail recipe library with filters</li>
                 <li>• Bourbon 101 educational content</li>
-                <li>• Direct WA Store integration</li>
+                <li>• Direct Whisky Advocate Store integration</li>
               </ul>
         </motion.div>
 
@@ -615,13 +615,13 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               TARGET AUDIENCE & BRAND POSITIONING
             </h2>
-            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-medium leading-relaxed mb-8">
               <strong>Reaching the right bourbon connoisseurs at the perfect moment in their discovery journey.</strong>
             </p>
-            <p className="text-lg text-slate-800 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className="text-lg text-slate-800 max-w-4xl mx-auto font-normal leading-relaxed">
               We're hitting consumers at THREE peak intent moments: Holiday Gifting (Nov-Dec), New Year Reset (January), and Valentine's & Spring (Feb-March).
             </p>
           </motion.div>
@@ -1220,10 +1220,10 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               M SHANKEN COMMUNICATIONS
               </h2>
-            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-12">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-medium leading-relaxed mb-12">
               <strong>Ready to create the most sophisticated bourbon marketing program in the industry?</strong> Let's discuss how we can elevate Bibb & Tucker and Redemption's brand story through strategic Whisky Advocate partnerships.
             </p>
 
