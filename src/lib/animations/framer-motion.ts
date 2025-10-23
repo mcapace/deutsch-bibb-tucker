@@ -234,7 +234,7 @@ export const floating = {
   transition: {
     duration: 3,
     repeat: Infinity,
-    ease: 'easeInOut',
+    ease: 'easeInOut' as const,
   },
 };
 
@@ -244,7 +244,7 @@ export const pulse = {
   transition: {
     duration: 2,
     repeat: Infinity,
-    ease: 'easeInOut',
+    ease: 'easeInOut' as const,
   },
 };
 
@@ -258,7 +258,7 @@ export const glow = {
   transition: {
     duration: 2,
     repeat: Infinity,
-    ease: 'easeInOut',
+    ease: 'easeInOut' as const,
   },
 };
 
