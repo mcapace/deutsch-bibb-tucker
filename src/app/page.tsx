@@ -154,19 +154,19 @@ export default function Home() {
               >
                 <div className="flex justify-center lg:justify-start items-center space-x-8">
                   <div className="w-40 h-40 bg-gradient-to-br from-amber-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-2xl p-4">
-                    <img 
-                      src="/images/bibb-tucker-logo.png" 
-                      alt="Bibb & Tucker Logo" 
-                      className="w-full h-full object-contain"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                        const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
-                        if (nextElement) {
-                          nextElement.style.display = 'block';
-                        }
-                      }}
-                    />
-                    <span className="text-white font-bold text-2xl" style={{display: 'none'}}>B&T</span>
+                  <img 
+                    src="/images/bib-tucker-logo.png" 
+                    alt="Bibb & Tucker Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+                      const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                      if (nextElement) {
+                        nextElement.style.display = 'block';
+                      }
+                    }}
+                  />
+                  <span className="text-white font-bold text-2xl" style={{display: 'none'}}>B&T</span>
                   </div>
                   <div className="text-4xl font-light text-slate-800">×</div>
                   <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl p-4">
@@ -460,7 +460,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/bibb-tucker-gold-roast.png" 
+                      src="/images/gold-roast-bottle.jpg" 
                       alt="Bibb & Tucker Gold Roast" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
@@ -478,7 +478,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/bibb-tucker-double-char.png" 
+                      src="/images/double-char-bottle.jpg" 
                       alt="Bibb & Tucker Double Char" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
@@ -496,7 +496,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/bibb-tucker-classic-6.png" 
+                      src="/images/classic-six-bottle.jpg" 
                       alt="Bibb & Tucker Classic 6" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
@@ -532,7 +532,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/redemption-rye.png" 
+                      src="/images/placeholder-bottle.jpg" 
                       alt="Redemption Rye" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
@@ -550,7 +550,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/redemption-bourbon.png" 
+                      src="/images/placeholder-bottle.jpg" 
                       alt="Redemption Bourbon" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
@@ -568,7 +568,7 @@ export default function Home() {
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
                     <img 
-                      src="/images/redemption-single-barrel.png" 
+                      src="/images/placeholder-bottle.jpg" 
                       alt="Redemption Single Barrel" 
                       className="w-full h-full object-contain rounded-lg"
                       onError={(e) => {
