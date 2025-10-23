@@ -341,7 +341,7 @@ export default function Home() {
                 <strong>Multi-channel digital amplification that drives traffic back to the central Hub story.</strong>
               </p>
               <ul className="text-slate-800 font-medium space-y-2">
-                <li>• Email marketing (250K+ subscribers)</li>
+                <li>• Dedicated E-blasts and Whisky Notes newsletter (250K+ subscribers)</li>
                 <li>• Paid social (Instagram, Facebook)</li>
                 <li>• Native advertising extensions</li>
                 <li>• Display banners and retargeting</li>
@@ -418,20 +418,11 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/50">
-                <h4 className="text-xl font-bold text-slate-900 mb-4">Media & PR Appeal</h4>
-                <ul className="text-slate-900 font-medium space-y-2">
-                  <li>• Food and lifestyle media will cover this</li>
-                  <li>• Influencer goldmine (coffee + spirits influencers)</li>
-                  <li>• Social media shareability</li>
-                  <li>• Retail shelf differentiation</li>
-                </ul>
-              </div>
 
               <div className="bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl p-6 shadow-lg text-white">
                 <h4 className="text-xl font-bold mb-4">Campaign Strategy</h4>
                 <p className="font-semibold">
-                  <strong>While we showcase all three expressions, Gold Roast LEADS the narrative.</strong> We're not hiding the other expressions - we're leading with innovation, then revealing the full portfolio depth.
+                  <strong>Gold Roast LEADS the narrative as your innovation flagship.</strong> This strategic approach positions Gold Roast as the breakthrough product that captures attention, then seamlessly introduces consumers to your complete Bibb & Tucker portfolio, maximizing cross-selling opportunities and brand loyalty.
                 </p>
               </div>
             </motion.div>
@@ -768,11 +759,11 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
-              Brand Heritage
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Our Brand Understanding
             </h2>
-            <p className="text-xl text-slate-800 max-w-3xl mx-auto font-light leading-relaxed">
-              From distillery to finished bourbon - the Deutsch family's commitment to excellence in American whiskey.
+            <p className="text-xl text-slate-900 max-w-3xl mx-auto font-medium leading-relaxed">
+              <strong>We understand the Deutsch family's commitment to excellence in American whiskey.</strong> Our campaign strategy leverages this heritage to position Bibb & Tucker and Redemption as the premium choice for discerning bourbon connoisseurs.
             </p>
           </motion.div>
 
@@ -786,9 +777,9 @@ export default function Home() {
             >
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-green-200/30">
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-light text-slate-800 mb-4">Bourbon Craft Excellence</h3>
-                  <p className="text-slate-800 font-light leading-relaxed">
-                    Our team works directly in the distillery, ensuring every barrel meets our exacting standards for premium bourbon production.
+                  <h3 className="text-2xl font-semibold text-slate-900 mb-4">Campaign Positioning Strategy</h3>
+                  <p className="text-slate-900 font-medium leading-relaxed">
+                    <strong>We position your brands as the pinnacle of American whiskey craftsmanship.</strong> Our campaign emphasizes the distillery-to-bottle excellence that sets Bibb & Tucker and Redemption apart in the premium bourbon market.
                   </p>
                 </div>
                 
@@ -797,29 +788,29 @@ export default function Home() {
                     <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Leaf className="text-white" size={24} />
                     </div>
-                    <h4 className="text-lg font-light text-slate-800 mb-1">Grain to Glass</h4>
-                    <p className="text-slate-500 font-light text-sm">Direct oversight</p>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-1">Heritage Storytelling</h4>
+                    <p className="text-slate-700 font-medium text-sm">Premium positioning</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Award className="text-white" size={24} />
                     </div>
-                    <h4 className="text-lg font-light text-slate-800 mb-1">Quality Control</h4>
-                    <p className="text-slate-500 font-light text-sm">Hand-selected grains</p>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-1">Brand Differentiation</h4>
+                    <p className="text-slate-700 font-medium text-sm">Market leadership</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Heart className="text-white" size={24} />
                     </div>
-                    <h4 className="text-lg font-light text-slate-800 mb-1">Family Tradition</h4>
-                    <p className="text-slate-500 font-light text-sm">Generations of expertise</p>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-1">Emotional Connection</h4>
+                    <p className="text-slate-700 font-medium text-sm">Brand loyalty</p>
                   </div>
                   <div className="text-center">
                     <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-amber-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Crown className="text-white" size={24} />
                     </div>
-                    <h4 className="text-lg font-light text-slate-800 mb-1">Premium Standards</h4>
-                    <p className="text-slate-500 font-light text-sm">Luxury craftsmanship</p>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-1">Premium Positioning</h4>
+                    <p className="text-slate-700 font-medium text-sm">Market dominance</p>
                   </div>
                 </div>
               </div>
