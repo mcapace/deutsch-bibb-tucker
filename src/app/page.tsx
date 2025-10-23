@@ -229,13 +229,13 @@ export default function Home() {
               className="relative"
             >
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30">
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">The Bourbon Portfolio</h3>
+                <h3 className="text-2xl font-semibold text-slate-900 mb-6 text-center">The Bourbon Portfolio</h3>
                 <div className="grid grid-cols-2 gap-8">
                   <div className="text-center">
                     <div className="bg-gradient-to-r from-amber-600 to-red-700 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Coffee className="text-white" size={32} />
                     </div>
-                    <h4 className="text-2xl font-bold text-amber-700 mb-2">Bibb & Tucker</h4>
+                    <h4 className="text-2xl font-semibold text-amber-700 mb-2">Bibb & Tucker</h4>
                     <p className="text-slate-900 font-semibold">Innovation meets tradition</p>
                     <p className="text-slate-800 text-sm mt-2">Three expressions, endless possibilities</p>
                   </div>
@@ -243,7 +243,7 @@ export default function Home() {
                     <div className="bg-gradient-to-r from-red-700 to-red-900 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Award className="text-white" size={32} />
                     </div>
-                    <h4 className="text-2xl font-bold text-red-700 mb-2">Redemption</h4>
+                    <h4 className="text-2xl font-semibold text-red-700 mb-2">Redemption</h4>
                     <p className="text-slate-900 font-semibold">Pre-Prohibition craft</p>
                     <p className="text-slate-800 text-sm mt-2">Heritage you can taste</p>
                   </div>
@@ -270,7 +270,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               THE STRATEGIC VISION
             </h2>
             <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
@@ -292,7 +292,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <BookOpen className="text-white" size={32} />
         </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">The Bourbon Hub</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-4">The Bourbon Hub</h3>
               <p className="text-slate-900 font-semibold leading-relaxed mb-4">
                 <strong>Central storytelling platform where craft meets culture, heritage meets innovation, and connoisseurs discover their next favorite pour.</strong>
               </p>
@@ -314,7 +314,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Globe className="text-white" size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Editorial Authority</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-4">Editorial Authority</h3>
               <p className="text-slate-900 font-semibold leading-relaxed mb-4">
                 <strong>Five sponsored articles across Whisky Advocate that establish editorial credibility and drive qualified traffic to the Hub.</strong>
               </p>
@@ -336,7 +336,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Zap className="text-white" size={32} />
           </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Integrated Amplification</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-4">Integrated Amplification</h3>
               <p className="text-slate-900 font-semibold leading-relaxed mb-4">
                 <strong>Multi-channel digital amplification that drives traffic back to the central Hub story.</strong>
               </p>
@@ -361,7 +361,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               THE GOLD ROAST OPPORTUNITY
             </h2>
             <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
@@ -377,10 +377,10 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">The Coffee-Bourbon Bridge</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">The Coffee-Bourbon Bridge</h3>
               <div className="space-y-4">
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-2">Market Opportunity</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-2">Market Opportunity</h4>
                   <ul className="text-slate-900 font-medium space-y-1">
                     <li>• 68% of Americans drink coffee daily</li>
                     <li>• 30% are bourbon drinkers</li>
@@ -389,7 +389,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-2">Strategic Value</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-2">Strategic Value</h4>
                   <ul className="text-slate-900 font-medium space-y-1">
                     <li>• Differentiates from EVERY competitor</li>
                     <li>• Creates conversation beyond bourbon connoisseurs</li>
@@ -408,7 +408,7 @@ export default function Home() {
               className="space-y-6"
             >
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/50">
-                <h4 className="text-xl font-bold text-slate-900 mb-4">The Story Writes Itself</h4>
+                <h4 className="text-xl font-semibold text-slate-900 mb-4">The Story Writes Itself</h4>
                 <ul className="text-slate-900 font-medium space-y-2">
                   <li>• "For the coffee lover who thought they didn't like bourbon"</li>
                   <li>• "Your morning ritual meets your evening pour"</li>
@@ -420,7 +420,7 @@ export default function Home() {
 
 
               <div className="bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl p-6 shadow-lg text-white">
-                <h4 className="text-xl font-bold mb-4">Campaign Strategy</h4>
+                <h4 className="text-xl font-semibold mb-4">Campaign Strategy</h4>
                 <p className="font-semibold">
                   <strong>Gold Roast LEADS the narrative as your innovation flagship.</strong> This strategic approach positions Gold Roast as the breakthrough product that captures attention, then seamlessly introduces consumers to your complete Bibb & Tucker portfolio, maximizing cross-selling opportunities and brand loyalty.
                 </p>
@@ -440,7 +440,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               THE BOURBON PORTFOLIO
             </h2>
             <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed">
@@ -456,7 +456,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Bibb & Tucker Collection</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6 text-center">Bibb & Tucker Collection</h3>
               <div className="grid grid-cols-3 gap-4 mb-6">
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -528,7 +528,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-red-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Redemption Collection</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6 text-center">Redemption Collection</h3>
               <div className="grid grid-cols-3 gap-4 mb-6">
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -642,7 +642,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Bourbon Relationship</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Bourbon Relationship</h4>
                   <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Owns 3-8 bottles at home</li>
                     <li>• Willing to experiment with new brands</li>
@@ -694,14 +694,14 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-amber-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Bibb & Tucker: Innovation Meets Tradition</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Bibb & Tucker: Innovation Meets Tradition</h3>
               <div className="space-y-6">
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Brand Voice</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Brand Voice</h4>
                   <p className="text-slate-900 font-semibold">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Key Themes</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Key Themes</h4>
                   <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Three expressions, endless possibilities</li>
                     <li>• The bourbon that bridges worlds</li>
@@ -710,7 +710,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Tone</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Tone</h4>
                   <p className="text-slate-900 font-semibold">Bold, friendly, educational, aspirational</p>
                 </div>
               </div>
@@ -723,14 +723,14 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-red-200/50"
             >
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Redemption: Pre-Prohibition Craft</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Redemption: Pre-Prohibition Craft</h3>
               <div className="space-y-6">
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Brand Voice</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Brand Voice</h4>
                   <p className="text-slate-900 font-semibold">Authoritative but accessible, heritage-focused but not old-fashioned</p>
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Key Themes</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Key Themes</h4>
                   <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Pre-Prohibition authenticity</li>
                     <li>• Small batch integrity</li>
@@ -739,7 +739,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
-                  <h4 className="text-lg font-bold text-slate-800 mb-3">Tone</h4>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">Tone</h4>
                   <p className="text-slate-900 font-semibold">Authoritative, warm, craft-focused, timeless</p>
                 </div>
               </div>
@@ -1164,7 +1164,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               CAMPAIGN INVESTMENT
             </h2>
             <p className="text-xl text-slate-900 max-w-3xl mx-auto font-semibold leading-relaxed">
@@ -1180,18 +1180,18 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-12 shadow-2xl text-white text-center"
             >
-              <h3 className="text-3xl font-bold mb-8">Total Campaign Investment</h3>
+              <h3 className="text-3xl font-semibold mb-8">Total Campaign Investment</h3>
               <div className="text-6xl font-bold mb-4">$309,000</div>
               <p className="text-xl font-semibold mb-8">November 15, 2025 - March 31, 2026</p>
               
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
-                  <h4 className="text-2xl font-bold mb-2">Bibb & Tucker</h4>
+                  <h4 className="text-2xl font-semibold mb-2">Bibb & Tucker</h4>
                   <div className="text-3xl font-bold mb-2">$202,000</div>
                   <p className="text-amber-100 font-semibold">Innovation meets tradition</p>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
-                  <h4 className="text-2xl font-bold mb-2">Redemption</h4>
+                  <h4 className="text-2xl font-semibold mb-2">Redemption</h4>
                   <div className="text-3xl font-bold mb-2">$107,000</div>
                   <p className="text-amber-100 font-semibold">Pre-Prohibition craft</p>
                 </div>
