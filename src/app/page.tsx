@@ -100,7 +100,7 @@ export default function Home() {
                 <span className="block text-2xl lg:text-3xl text-slate-700 font-medium mb-6">
                   Where Authority Meets Innovation
                 </span>
-              </h1>
+          </h1>
 
               <p className="text-xl text-slate-900 mb-8 max-w-3xl font-medium leading-relaxed">
                 <strong>Establishing Deutsch Family Wine & Spirits as THE bourbon voice during the industry's most critical sales period.</strong>
@@ -223,7 +223,7 @@ export default function Home() {
                 <div className="bg-amber-50/50 rounded-xl p-6">
                   <div className="text-2xl font-semibold text-amber-700 mb-2">This isn't a campaign.</div>
                   <div className="text-slate-800 font-medium">It's a platform.</div>
-                </div>
+        </div>
                 <div className="bg-amber-50/50 rounded-xl p-6">
                   <div className="text-2xl font-semibold text-amber-700 mb-2">This isn't advertising.</div>
                   <div className="text-slate-800 font-medium">It's authority-building.</div>
@@ -296,8 +296,8 @@ export default function Home() {
                   These are the bourbon consumers who drive trends and build long-term brand loyalty.
                 </p>
               </motion.div>
-            </div>
-          </div>
+        </div>
+    </div>
         </div>
       </section>
 
@@ -982,6 +982,796 @@ export default function Home() {
               <p className="text-lg text-slate-800 font-medium leading-relaxed">
                 That's not advertising. That's authority transfer. That's the Whisky Advocate credibility working for your brand. That's the difference between being seen and being believed.
               </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 9: TIMING & SEASONALITY */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Five Months. Three Buying Cycles. Peak Bourbon Season.
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-3 gap-8 mb-12">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">November - December 2025: Holiday Discovery</h3>
+                <h4 className="text-lg font-semibold text-slate-900 mb-3">THE GIFTING SEASON</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Consumer Behavior:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Searching for unique bourbon gifts</li>
+                      <li>• Exploring premium spirits for entertaining</li>
+                      <li>• Buying for hard-to-shop-for recipients</li>
+                      <li>• Willing to spend more during holidays</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Bourbon Hub Positioning:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Gold Roast as the unforgettable gift</li>
+                      <li>• Gift guides and pairing recommendations</li>
+                      <li>• Holiday cocktail recipes</li>
+                      <li>• "What to bring" entertaining advice</li>
+                    </ul>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">January - February 2026: New Year Momentum</h3>
+                <h4 className="text-lg font-semibold text-slate-900 mb-3">THE EXPLORATION SEASON</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Consumer Behavior:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• New Year's resolution to explore quality spirits</li>
+                      <li>• Trade-up mindset from well brands</li>
+                      <li>• Seeking bourbon education and discovery</li>
+                      <li>• Building home bar collections</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Bourbon Hub Positioning:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• "Start 2026 with better bourbon" messaging</li>
+                      <li>• Educational content for bourbon newcomers</li>
+                      <li>• Portfolio exploration (Classic 6 → Gold Roast)</li>
+                      <li>• Winter cocktail innovation</li>
+                    </ul>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">March 2026: Spring Festival Preparation</h3>
+                <h4 className="text-lg font-semibold text-slate-900 mb-3">THE ANTICIPATION SEASON</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Consumer Behavior:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Preparing for spring bourbon festivals</li>
+                      <li>• Outdoor entertaining season begins</li>
+                      <li>• BBQ and grilling season kickoff</li>
+                      <li>• Whiskey tourism planning</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-slate-900 mb-2">Bourbon Hub Positioning:</h5>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Festival preview and prep guides</li>
+                      <li>• Double Char + grilling content surge</li>
+                      <li>• Outdoor cocktail recipes</li>
+                      <li>• Travel and distillery visit content</li>
+                    </ul>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+            >
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Campaign Duration: November 15, 2025 - March 31, 2026</h3>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Why These Dates?</h4>
+                  <p className="text-slate-800 font-medium text-sm">
+                    Start: Mid-November captures early holiday shoppers and Thanksgiving entertaining
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">End Strategy</h4>
+                  <p className="text-slate-800 font-medium text-sm">
+                    End: March 31 concludes with spring festival season and Q1 2026, delivering complete value across two fiscal quarters
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Duration Benefits</h4>
+                  <p className="text-slate-800 font-medium text-sm">
+                    Duration: 4.5 months provides sustained presence without campaign fatigue—long enough to build authority, short enough to maintain urgency
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 10: SUCCESS METRICS */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Measuring What Matters: Beyond Vanity Metrics
+            </h2>
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed">
+              <strong>We Don't Just Count Impressions. We Track Impact.</strong>
+            </p>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-8 mb-12">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">AWARENESS METRICS</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• Bourbon Hub unique visitors</li>
+                  <li>• Page views and time on site</li>
+                  <li>• Social media reach and engagement</li>
+                  <li>• Brand search lift (Google Trends)</li>
+                  <li>• Share of voice vs. competitors</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">ENGAGEMENT METRICS</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• Article read completion rates</li>
+                  <li>• Video view-through rates</li>
+                  <li>• Content shares and saves</li>
+                  <li>• Email click-through rates</li>
+                  <li>• Return visitor percentage</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">CONSIDERATION METRICS</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• Product page visits (specific expressions)</li>
+                  <li>• Retail locator tool usage</li>
+                  <li>• "Where to buy" click-throughs</li>
+                  <li>• WA Store product page visits</li>
+                  <li>• Email list growth (brand opt-ins)</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">CONVERSION METRICS</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• WA Store purchase attribution</li>
+                  <li>• Promo code redemptions</li>
+                  <li>• Retail partner referral traffic</li>
+                  <li>• E-commerce conversion rates</li>
+                  <li>• Multi-touch attribution analysis</li>
+                </ul>
+              </motion.div>
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
+            >
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Reporting Cadence</h3>
+              <ul className="text-slate-800 font-medium space-y-2">
+                <li>• Weekly campaign optimization checks</li>
+                <li>• Monthly performance dashboards</li>
+                <li>• Mid-campaign comprehensive review</li>
+                <li>• Post-campaign final analysis</li>
+                <li>• Ongoing Hub performance tracking (post-March)</li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 11: THE BOURBON HUB DIFFERENCE */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              What Makes This Campaign Different From Everything Else
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-8 mb-12">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Digital Advertising</h3>
+                <div className="space-y-3">
+                  <p className="text-slate-800 font-semibold">ADVERTISING says: "Buy our bourbon."</p>
+                  <p className="text-slate-800 font-medium text-sm">
+                    THE BOURBON HUB says: "Let us show you why bourbon enthusiasts are choosing these expressions, and help you discover which one matches your palate, your occasion, your curiosity."
+                  </p>
+                  <p className="text-slate-800 font-semibold">One is a transaction. The other is a relationship.</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Brand Awareness</h3>
+                <div className="space-y-3">
+                  <p className="text-slate-800 font-semibold">AWARENESS CAMPAIGNS create impressions that fade.</p>
+                  <p className="text-slate-800 font-medium text-sm">
+                    THE BOURBON HUB creates a RESOURCE that consumers bookmark, return to, and share.
+                  </p>
+                  <p className="text-slate-800 font-semibold">It's not about being seen once. It's about being found repeatedly.</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Not Just Content Marketing</h3>
+                <div className="space-y-3">
+                  <p className="text-slate-800 font-semibold">CONTENT MARKETING lives on your owned channels where consumers must seek you out.</p>
+                  <p className="text-slate-800 font-medium text-sm">
+                    THE BOURBON HUB lives on WHISKY ADVOCATE—where bourbon enthusiasts are already spending time, already trusting editorial recommendations, already making purchase decisions.
+                  </p>
+                  <p className="text-slate-800 font-semibold">It's the difference between hoping consumers find you and being where they already are.</p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">It's Category Authority</h3>
+                <div className="space-y-3">
+                  <p className="text-slate-800 font-medium text-sm mb-3">
+                    This campaign positions Deutsch Family Wine & Spirits not as one more bourbon brand, but as THE bourbon portfolio that represents the full spectrum:
+                  </p>
+                  <ul className="text-slate-800 font-medium text-sm space-y-1">
+                    <li>• Innovation (Gold Roast)</li>
+                    <li>• Tradition (Classic 6)</li>
+                    <li>• Intensity (Double Char)</li>
+                    <li>• Heritage (Redemption)</li>
+                  </ul>
+                  <p className="text-slate-800 font-semibold">Two brands. Four expressions. One authoritative voice.</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 12: THE BOTTOM LINE */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              What You're Really Buying
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">This $309,000 Investment Delivers:</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Category Authority Play</h4>
+                    <p className="text-slate-800 font-medium text-sm">Not just ads, but editorial integration that transfers Whisky Advocate's credibility to your brands</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Seasonal Sales Driver</h4>
+                    <p className="text-slate-800 font-medium text-sm">Five months covering three distinct bourbon buying cycles from holiday gifting through spring festivals</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Long-Term Brand Asset</h4>
+                    <p className="text-slate-800 font-medium text-sm">The Bourbon Hub doesn't disappear when budget stops—it becomes a permanent resource consumers return to</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Storytelling Platform</h4>
+                    <p className="text-slate-800 font-medium text-sm">Gold Roast's innovation story gets the stage it deserves, creating genuine consumer curiosity and earned media</p>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Commerce Engine</h4>
+                    <p className="text-slate-800 font-medium text-sm">Every touchpoint drives to conversion: WA Store integration, retail locators, direct purchase pathways</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ A Consumer Education Resource</h4>
+                    <p className="text-slate-800 font-medium text-sm">Not just selling bourbon, but teaching consumers WHY these expressions matter and WHEN to drink them</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ An Efficient Dual-Brand Strategy</h4>
+                    <p className="text-slate-800 font-medium text-sm">Two brands share one platform = greater impact per dollar than separate campaigns</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">✓ Measurable, Optimizable Performance</h4>
+                    <p className="text-slate-800 font-medium text-sm">Monthly analytics reveal what's working, allowing real-time optimization throughout the campaign</p>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 13: IMPLEMENTATION TIMELINE */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Implementation Timeline
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+            >
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Pre-Launch (October - Early November 2025)</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Week 1-2:</h4>
+                  <ul className="text-slate-800 font-medium text-sm space-y-1">
+                    <li>• Contract execution and kickoff meeting</li>
+                    <li>• Hub architecture and design review</li>
+                    <li>• Editorial calendar development</li>
+                    <li>• Asset collection (photography, brand guidelines)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Week 3-4:</h4>
+                  <ul className="text-slate-800 font-medium text-sm space-y-1">
+                    <li>• Hub development begins</li>
+                    <li>• First sponsored articles assigned to editorial</li>
+                    <li>• Email marketing schedule finalized</li>
+                    <li>• Paid social creative development</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Week 5-6:</h4>
+                  <ul className="text-slate-800 font-medium text-sm space-y-1">
+                    <li>• Hub beta testing and quality assurance</li>
+                    <li>• Article drafts for client review</li>
+                    <li>• WA Store promotion planning</li>
+                    <li>• Analytics tracking setup</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-amber-700 mb-3">Week 7-8:</h4>
+                  <ul className="text-slate-800 font-medium text-sm space-y-1">
+                    <li>• Final Hub approvals and pre-launch testing</li>
+                    <li>• Content population and publishing schedule</li>
+                    <li>• Campaign asset finalization</li>
+                    <li>• Pre-launch marketing preparation</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Launch & Active Campaign</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">November 15: BOURBON HUB GOES LIVE</h4>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Hub launches with full content library</li>
+                      <li>• First sponsored article publishes</li>
+                      <li>• Email campaign 1 deploys</li>
+                      <li>• Paid social campaigns activate</li>
+                      <li>• WA Store holiday promotion begins</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">November-December: HOLIDAY ACTIVATION PEAK</h4>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Weekly content updates</li>
+                      <li>• Email marketing surge (gift guides, entertaining)</li>
+                      <li>• Social media amplification</li>
+                      <li>• Display advertising + retargeting</li>
+                      <li>• Holiday WA Store promotions</li>
+                    </ul>
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">January-February: NEW YEAR MOMENTUM</h4>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• New sponsored articles publish</li>
+                      <li>• "Start 2026 with better bourbon" messaging</li>
+                      <li>• Educational content focus</li>
+                      <li>• Email campaigns to engaged subscribers</li>
+                      <li>• Q1 WA Store promotions</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-2">March 1-31: SPRING FESTIVAL BUILD</h4>
+                    <ul className="text-slate-800 font-medium text-sm space-y-1">
+                      <li>• Final sponsored articles</li>
+                      <li>• Festival prep content</li>
+                      <li>• Grilling season kickoff (Double Char)</li>
+                      <li>• Campaign optimization and wrap-up</li>
+                      <li>• Final WA Store promotion</li>
+                    </ul>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 14: WHAT WE NEED FROM YOU */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Client Deliverables & Partnership Requirements
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Creative Assets</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• High-resolution product photography (all expressions)</li>
+                  <li>• Bottle shots, lifestyle imagery, distillery photos</li>
+                  <li>• Brand logos (various formats)</li>
+                  <li>• Brand guidelines and messaging documents</li>
+                  <li>• Any existing video content</li>
+                  <li>• Master distiller bios and headshots</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Strategic Input</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• Key messaging priorities for each brand</li>
+                  <li>• Product availability and distribution details</li>
+                  <li>• Any off-limits topics or competitive sensitivities</li>
+                  <li>• Approval contacts and process timeline</li>
+                  <li>• Promotional pricing/offers for WA Store</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Operational Coordination</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• WA Store inventory management</li>
+                  <li>• Retail partner integration (if applicable)</li>
+                  <li>• Legal approval on all marketing claims</li>
+                  <li>• Trademark usage guidelines</li>
+                  <li>• Campaign exclusivity parameters</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">What We Provide</h3>
+                <ul className="text-slate-800 font-medium space-y-2">
+                  <li>• Comprehensive project management</li>
+                  <li>• Creative development and execution</li>
+                  <li>• Editorial content creation (by WA team)</li>
+                  <li>• Technical implementation and hosting</li>
+                  <li>• Campaign activation and monitoring</li>
+                  <li>• Regular performance reporting</li>
+                  <li>• Ongoing optimization and recommendations</li>
+                </ul>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 15: CALL TO ACTION */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Ready to Establish Bourbon Authority?
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+            >
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">The Opportunity</h3>
+              <p className="text-lg text-slate-800 font-medium leading-relaxed mb-4">
+                Bourbon season begins November 15.
+              </p>
+              <p className="text-lg text-slate-800 font-medium leading-relaxed mb-4">
+                The consumers who will define bourbon trends in 2026 are reading Whisky Advocate RIGHT NOW.
+              </p>
+              <p className="text-lg text-slate-800 font-semibold mb-6">
+                The Bourbon Hub positions Deutsch Family Wine & Spirits—Bibb & Tucker and Redemption—as THE bourbon portfolio during the industry's most critical sales period.
+              </p>
+              <p className="text-lg text-slate-800 font-semibold">
+                Five months. Two brands. One unified platform. $309,000 investment. Immeasurable brand impact.
+              </p>
+            </motion.div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Next Steps</h3>
+                <ol className="text-slate-800 font-medium space-y-2">
+                  <li>1. Review this proposal and investment breakdown</li>
+                  <li>2. Schedule strategy discussion with our team</li>
+                  <li>3. Approve campaign approach and timeline</li>
+                  <li>4. Execute contract and kickoff planning</li>
+                  <li>5. Launch The Bourbon Hub on November 15, 2025</li>
+                </ol>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h3 className="text-xl font-semibold text-amber-700 mb-4">Contact</h3>
+                <div className="space-y-3">
+                  <p className="text-slate-800 font-semibold">[Your Name]</p>
+                  <p className="text-slate-800 font-semibold">[Your Title]</p>
+                  <p className="text-slate-800 font-semibold">M. Shanken Communications, Inc.</p>
+                  <p className="text-slate-800 font-semibold">Whisky Advocate | Wine Enthusiast</p>
+                  <p className="text-slate-800 font-semibold">[Email] | [Phone]</p>
+                  <p className="text-slate-800 font-semibold">Let's make bourbon history together.</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* APPENDIX: COMPETITIVE CONTEXT */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Why This Matters Now
+            </h2>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+            >
+              <p className="text-lg text-slate-800 font-medium leading-relaxed mb-6">
+                The bourbon category is at an inflection point:
+              </p>
+              <ul className="text-slate-800 font-medium space-y-2 mb-6">
+                <li>• Premium bourbon sales continue growing YoY</li>
+                <li>• Consumers trading up from well brands to premium</li>
+                <li>• Innovation driving category interest (flavored, finished)</li>
+                <li>• Heritage brands being challenged by craft upstarts</li>
+                <li>• Digital discovery replacing traditional retail browsing</li>
+              </ul>
+              <p className="text-lg text-slate-800 font-semibold mb-4">
+                Deutsch needs to establish authority NOW—before competitors claim this territory, before Gold Roast's innovation window closes, before bourbon season passes without maximum impact.
+              </p>
+              <p className="text-lg text-slate-800 font-semibold">
+                The Bourbon Hub isn't just a good idea. It's the right strategy at the right time with the right brands.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-8 shadow-2xl text-white text-center"
+            >
+              <h3 className="text-3xl font-semibold mb-6">THE FINAL WORD</h3>
+              <div className="space-y-4 text-lg">
+                <p className="font-semibold">Two bourbon brands.</p>
+                <p className="font-semibold">One authoritative Hub.</p>
+                <p className="font-semibold">Five months of integrated storytelling.</p>
+                <p className="font-semibold">Establishing Deutsch Family Wine & Spirits as THE bourbon portfolio during peak season.</p>
+                <p className="font-semibold">Where innovation meets heritage.</p>
+                <p className="font-semibold">Where coffee culture meets whiskey tradition.</p>
+                <p className="font-semibold">Where advertising becomes authority.</p>
+                <p className="font-semibold">The bourbon conversation changes November 15, 2025.</p>
+                <p className="text-2xl font-bold mt-6">Let's make it happen. 🥃</p>
+              </div>
             </motion.div>
           </div>
         </div>
