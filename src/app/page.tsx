@@ -53,7 +53,7 @@ export default function Home() {
   const scale = useTransform(scrollYProgress, [0, 0.2], [1, 0.95])
 
   return (
-    <main className="bg-gradient-to-b from-stone-50 via-amber-50/30 to-orange-50/20 text-slate-800 overflow-x-hidden">
+    <main className="bg-gradient-to-b from-neutral-50 via-amber-50/30 to-orange-50/20 text-slate-800 overflow-x-hidden">
       
       {/* Progress Bar */}
       <motion.div
@@ -94,11 +94,11 @@ export default function Home() {
                 className="mb-8"
               >
                 <div className="flex justify-center lg:justify-start items-center space-x-8">
-                  <div className="w-40 h-40 bg-gradient-to-br from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center shadow-2xl">
+                  <div className="w-40 h-40 bg-gradient-to-br from-amber-600 to-amber-700 rounded-2xl flex items-center justify-center shadow-2xl">
                     <span className="text-white font-bold text-2xl">B&T</span>
                   </div>
                   <div className="text-4xl font-light text-slate-600">×</div>
-                  <div className="w-40 h-40 bg-gradient-to-br from-red-600 to-red-800 rounded-2xl flex items-center justify-center shadow-2xl">
+                  <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl">
                     <span className="text-white font-bold text-2xl">R</span>
                   </div>
             </div>
@@ -117,10 +117,10 @@ export default function Home() {
                 <span className="block text-2xl lg:text-3xl text-slate-500 font-extralight">
                   4.5 Months | 2025-2026
                 </span>
-              </h1>
+          </h1>
               
               <p className="text-xl text-slate-600 mb-8 max-w-2xl font-light leading-relaxed">
-                An integrated marketing program that positions Bibb & Tucker and Redemption as leading bourbon brands through strategic digital dominance and sophisticated storytelling.
+                An integrated digital campaign that establishes Deutsch Family Wine & Spirits as the authority in premium American bourbon through strategic storytelling across Wine Enthusiast and Whisky Advocate platforms.
               </p>
               
             </motion.div>
@@ -175,7 +175,7 @@ export default function Home() {
               Strategic Vision
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
-              One unified story across all touchpoints, creating an immersive brand experience that elevates Bibb & Tucker and Redemption to the pinnacle of luxury bourbon marketing.
+              Establishing Deutsch Family Wine & Spirits as the authority in premium American bourbon through unified storytelling that bridges innovation and heritage, coffee culture and whiskey appreciation.
             </p>
           </motion.div>
 
@@ -190,9 +190,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <BookOpen className="text-white" size={32} />
         </div>
-              <h3 className="text-2xl font-light text-slate-800 mb-4">Digital Hub</h3>
+              <h3 className="text-2xl font-light text-slate-800 mb-4">The Bourbon Hub</h3>
               <p className="text-slate-600 font-light leading-relaxed">
-                Central storytelling platform that amplifies the brand message and creates deeper engagement with both bourbon brands.
+                Central storytelling platform where craft meets culture, heritage meets innovation, and enthusiasts discover their next favorite pour.
               </p>
         </motion.div>
 
@@ -206,9 +206,9 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Globe className="text-white" size={32} />
               </div>
-              <h3 className="text-2xl font-light text-slate-800 mb-4">Editorial Content</h3>
+              <h3 className="text-2xl font-light text-slate-800 mb-4">Editorial Authority</h3>
               <p className="text-slate-600 font-light leading-relaxed">
-                Five sponsored articles across Wine Enthusiast & Whisky Advocate, ensuring maximum visibility and strategic positioning.
+                Five sponsored articles across Wine Enthusiast & Whisky Advocate that establish editorial credibility and drive qualified traffic to the Hub.
             </p>
           </motion.div>
 
@@ -222,11 +222,156 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Zap className="text-white" size={32} />
           </div>
-              <h3 className="text-2xl font-light text-slate-800 mb-4">Amplification</h3>
+              <h3 className="text-2xl font-light text-slate-800 mb-4">Integrated Amplification</h3>
               <p className="text-slate-600 font-light leading-relaxed">
-                Strategic digital amplification that extends reach and creates measurable impact across all channels.
+                Multi-channel digital amplification including email, social, native, and display campaigns that drive traffic back to the central Hub story.
               </p>
         </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Target Audience & Brand Positioning Section */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
+              Target Audience & Brand Positioning
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+              Reaching the right bourbon enthusiasts at the perfect moment in their discovery journey.
+            </p>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30"
+            >
+              <h3 className="text-2xl font-light text-slate-800 mb-6">Primary: The Curious Enthusiast</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Demographics</h4>
+                  <p className="text-slate-600 font-light">Ages 30-55, HHI $75K+, 60% male / 40% female</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Psychographics</h4>
+                  <ul className="text-slate-600 font-light space-y-1">
+                    <li>• Appreciates quality over quantity</li>
+                    <li>• Seeks authentic stories and craftsmanship</li>
+                    <li>• Entertains at home regularly</li>
+                    <li>• Values education and discovery</li>
+                    <li>• Active on social media (Instagram primary)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Bourbon Relationship</h4>
+                  <ul className="text-slate-600 font-light space-y-1">
+                    <li>• Owns 3-8 bottles at home</li>
+                    <li>• Willing to experiment with new brands</li>
+                    <li>• Reads reviews before purchasing</li>
+                    <li>• Influenced by peer recommendations</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="space-y-6"
+            >
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
+                <h4 className="text-xl font-light text-slate-800 mb-4">Secondary: The Gift Seeker</h4>
+                <p className="text-slate-600 font-light leading-relaxed mb-3">
+                  Ages 25-60, HHI $60K+, all genders. Wants to give thoughtful, impressive gifts and seeks guidance on quality purchases.
+                </p>
+                <p className="text-slate-600 font-light text-sm">
+                  May not be a bourbon drinker themselves but knows recipients appreciate bourbon and needs education on what makes one bourbon different from another.
+                </p>
+              </div>
+
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
+                <h4 className="text-xl font-light text-slate-800 mb-4">Tertiary: The Coffee Crossover</h4>
+                <p className="text-slate-600 font-light leading-relaxed mb-3">
+                  Ages 25-45, HHI $50K+, urban/suburban. Coffee enthusiast with foodie sensibility who may think "I don't like whiskey."
+                </p>
+                <p className="text-slate-600 font-light text-sm">
+                  Bourbon-curious but intimidated, needs a familiar entry point (coffee) and could become loyal bourbon consumer with right introduction.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-amber-200/30"
+            >
+              <h3 className="text-2xl font-light text-slate-800 mb-6">Bibb & Tucker: Innovation Meets Tradition</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Brand Voice</h4>
+                  <p className="text-slate-600 font-light">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Key Themes</h4>
+                  <ul className="text-slate-600 font-light space-y-1">
+                    <li>• Three expressions, endless possibilities</li>
+                    <li>• The bourbon that bridges worlds</li>
+                    <li>• Innovation rooted in craft</li>
+                    <li>• Something for every moment</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Tone</h4>
+                  <p className="text-slate-600 font-light">Bold, friendly, educational, aspirational</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-red-200/30"
+            >
+              <h3 className="text-2xl font-light text-slate-800 mb-6">Redemption: Pre-Prohibition Craft</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Brand Voice</h4>
+                  <p className="text-slate-600 font-light">Authoritative but accessible, heritage-focused but not old-fashioned</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Key Themes</h4>
+                  <ul className="text-slate-600 font-light space-y-1">
+                    <li>• Pre-Prohibition authenticity</li>
+                    <li>• Small batch integrity</li>
+                    <li>• Made right, not just made fast</li>
+                    <li>• Heritage you can taste</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-slate-800 mb-2">Tone</h4>
+                  <p className="text-slate-600 font-light">Authoritative, warm, craft-focused, timeless</p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -447,7 +592,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Gold Roast</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  A celebration of coffee culture, featuring innovative coffee-infused bourbon with rich, complex flavors.
+                  The bourbon that bridges coffee culture with whiskey appreciation. Small batch bourbon with bold innovation for the coffee lover who thought they didn't like bourbon.
                 </p>
           </div>
 
@@ -459,7 +604,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Double Char</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  Our most powerful blend, featuring bold grilling flavors with exceptional strength and character.
+                  Intense refined flavor for those who demand more. The perfect pairing for bold moments and grilling season meets bourbon season.
                 </p>
               </div>
 
@@ -471,7 +616,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Classic 6</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  The refined expression that showcases traditional bourbon craftsmanship with modern sophistication.
+                  Sophisticated complex and smooth for low and slow perfection. Six years of patience in every pour, the bourbon that earns its place in your collection.
                 </p>
               </div>
 
@@ -483,7 +628,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Redemption Heritage</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  A heritage blend that captures the passion and intensity of Pre-Prohibition bourbon craftsmanship.
+                  Pre-Prohibition craft meets modern palates. Made right since the beginning, the bourbon enthusiast's bourbon with small batch integrity.
                 </p>
               </div>
 
@@ -495,7 +640,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Redemption Small Batch</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  A small batch expression that represents the ethereal qualities of hand-crafted bourbon excellence.
+                  Small batch. Big heritage. Crafted for cocktails, perfect neat. The bourbon that represents the ethereal qualities of hand-crafted excellence.
                 </p>
               </div>
 
@@ -507,7 +652,7 @@ export default function Home() {
                   <h4 className="text-xl font-light text-slate-800">Redemption Made Right</h4>
                 </div>
                 <p className="text-slate-600 font-light leading-relaxed">
-                  The original expression that started it all, featuring classic bourbon flavors and traditional craftsmanship.
+                  The original expression that started it all. Made right, not just made fast. Heritage you can taste with classic bourbon flavors and traditional craftsmanship.
                 </p>
               </div>
             </motion.div>
@@ -745,6 +890,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-    </main>
+      </main>
   )
 }

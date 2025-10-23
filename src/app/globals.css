@@ -7,21 +7,30 @@
   --bibb-warm-brown: #92400E;
   --bibb-cream: #FEF3C7;
   --bibb-dark-gray: #1F2937;
-  
+
   /* Redemption Colors */
   --redemption-deep-red: #991B1B;
   --redemption-rich-brown: #78350F;
   --redemption-antique-gold: #F59E0B;
   --redemption-charcoal: #374151;
-  
+
   /* Hub Shared Colors */
   --bourbon-amber: #B45309;
   --oak-brown: #92400E;
   --off-white: #FAFAF9;
   --deep-black: #0C0A09;
-  
-  --background: #0C0A09;
-  --foreground: #FAFAF9;
+
+  /* Enhanced Color Palette */
+  --primary-amber: #D97706;
+  --primary-brown: #92400E;
+  --primary-red: #991B1B;
+  --accent-gold: #F59E0B;
+  --neutral-cream: #FEF3C7;
+  --neutral-charcoal: #374151;
+  --neutral-dark: #1F2937;
+
+  --background: #FAFAF9;
+  --foreground: #1F2937;
 }
 
 @theme inline {
