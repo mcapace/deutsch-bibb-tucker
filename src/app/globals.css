@@ -86,66 +86,95 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* Clean, modern font structure across the site */
-body, p, span, div {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-}
+    /* Clean, modern font structure across the site */
+    body, p, span, div {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+    }
 
-/* Titles - 20-24px, semi-bold, dark grey */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.4;
-  color: #333333;
-}
+    /* Elegant typography hierarchy */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      color: #1f2937;
+    }
 
-/* Main headings - larger size */
-h1 {
-  font-size: 2.5rem; /* 40px */
-  font-weight: 600;
-}
+    /* Main headings - refined sizing */
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
 
-h2 {
-  font-size: 2rem; /* 32px */
-  font-weight: 600;
-}
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 600;
+      letter-spacing: -0.025em;
+    }
 
-h3 {
-  font-size: 1.5rem; /* 24px */
-  font-weight: 600;
-}
+    h3 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
 
-h4 {
-  font-size: 1.25rem; /* 20px */
-  font-weight: 600;
-}
+    h4 {
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-weight: 600;
+      letter-spacing: -0.015em;
+    }
 
-/* Body text - 16-18px, regular weight, lighter grey */
-.body-text {
-  font-size: 1rem; /* 16px */
-  font-weight: 400;
-  color: #666666;
-  line-height: 1.6;
-}
+    /* Refined body text */
+    .body-text {
+      font-size: 1.125rem; /* 18px */
+      font-weight: 400;
+      color: #4b5563;
+      line-height: 1.7;
+      letter-spacing: -0.005em;
+    }
 
-/* Product titles - clean, modern */
-.product-title {
-  font-size: 1.25rem; /* 20px */
-  font-weight: 600;
-  color: #333333;
-  margin-bottom: 0.5rem;
-}
+    /* Product titles - elegant */
+    .product-title {
+      font-size: 1.375rem; /* 22px */
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
 
-/* Product descriptions */
-.product-description {
-  font-size: 1rem; /* 16px */
-  font-weight: 400;
-  color: #666666;
-  line-height: 1.6;
-}
+    /* Product descriptions */
+    .product-description {
+      font-size: 1rem; /* 16px */
+      font-weight: 400;
+      color: #6b7280;
+      line-height: 1.6;
+      letter-spacing: -0.005em;
+    }
+
+    /* Section spacing for better flow */
+    .section-spacing {
+      padding: clamp(4rem, 8vw, 8rem) 0;
+    }
+
+    /* Card spacing for symmetry */
+    .card-spacing {
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Refined button styles */
+    .elegant-button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      padding: 1rem 2rem;
+      border-radius: 0.75rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 /* Premium Components */
 .premium-card {

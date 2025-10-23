@@ -112,20 +112,16 @@ export default function Home() {
               </div>
 
               {/* Key Stats Visual Treatment */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
-                  <div className="text-2xl font-bold text-amber-700">$309,000</div>
-                  <div className="text-sm font-medium text-slate-800">Total Investment</div>
-                </div>
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 text-center">
                   <div className="text-2xl font-bold text-amber-700">4.5 Months</div>
                   <div className="text-sm font-medium text-slate-800">Sustained Presence</div>
                 </div>
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 text-center">
                   <div className="text-2xl font-bold text-amber-700">2 Brands</div>
                   <div className="text-sm font-medium text-slate-800">1 Unified Story</div>
                 </div>
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 text-center">
                   <div className="text-2xl font-bold text-amber-700">Peak Season</div>
                   <div className="text-sm font-medium text-slate-800">Bourbon Capture</div>
                 </div>
@@ -171,7 +167,7 @@ export default function Home() {
       </motion.section>
 
       {/* SECTION 2: THE STRATEGIC OPPORTUNITY */}
-      <section id="strategic-opportunity" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section id="strategic-opportunity" className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -302,7 +298,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 3: THE TWO-BRAND STRATEGY */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -422,7 +418,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 4: THE BOURBON HUB EXPERIENCE */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -529,14 +525,14 @@ export default function Home() {
       </section>
 
       {/* SECTION 5: THE GOLD ROAST DIFFERENTIATOR */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-orange-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-20"
           >
             <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               Coffee Culture Meets Bourbon Heritage
@@ -633,7 +629,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 6: CAMPAIGN COMPONENTS & DELIVERABLES */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -776,7 +772,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 7: INVESTMENT BREAKDOWN */}
-      <section id="investment" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section id="investment" className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -876,7 +872,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 8: WHY THIS ISN'T TRADITIONAL ADVERTISING */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -988,7 +984,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 9: TIMING & SEASONALITY */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-orange-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1132,7 +1128,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 10: SUCCESS METRICS */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1241,7 +1237,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 11: THE BOURBON HUB DIFFERENCE */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1335,7 +1331,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 12: THE BOTTOM LINE */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1411,7 +1407,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 13: IMPLEMENTATION TIMELINE */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1543,7 +1539,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 14: WHAT WE NEED FROM YOU */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1635,14 +1631,14 @@ export default function Home() {
       </section>
 
       {/* SECTION 15: CALL TO ACTION */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
+      <section className="section-spacing bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-20"
           >
             <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
               Ready to Establish Bourbon Authority?
@@ -1713,7 +1709,7 @@ export default function Home() {
       </section>
 
       {/* APPENDIX: COMPETITIVE CONTEXT */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1778,7 +1774,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section - Sales Reps at Bottom */}
-      <section id="contact" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section id="contact" className="section-spacing bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1855,15 +1851,10 @@ export default function Home() {
               <p className="text-lg font-semibold mb-6">
                 <strong>November 15, 2025 - March 31, 2026</strong> | Whisky Advocate Platform
               </p>
-              <div className="grid md:grid-cols-2 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold mb-2">$202,000</div>
-                  <div className="text-amber-100 font-semibold">Bibb & Tucker</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold mb-2">$107,000</div>
-                  <div className="text-amber-100 font-semibold">Redemption</div>
-                </div>
+              <div className="text-center">
+                <p className="text-lg font-semibold text-amber-100">
+                  Complete integrated marketing program with editorial authority, sustained presence, and measurable impact
+                </p>
               </div>
             </div>
           </motion.div>
