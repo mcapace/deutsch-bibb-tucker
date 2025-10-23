@@ -33,7 +33,7 @@ export const heroVariants = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -59,7 +59,7 @@ export const staggerItem = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -70,7 +70,7 @@ export const cardHover = {
   y: -10,
   transition: {
     duration: 0.3,
-    ease: 'easeOut',
+    ease: 'easeOut' as const,
   },
 };
 
@@ -87,7 +87,7 @@ export const buttonHover = {
   boxShadow: '0 20px 40px -10px rgba(217, 119, 6, 0.4)',
   transition: {
     duration: 0.3,
-    ease: 'easeOut',
+    ease: 'easeOut' as const,
   },
 };
 
@@ -109,7 +109,7 @@ export const textReveal = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -125,7 +125,7 @@ export const fadeInUp = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -141,7 +141,7 @@ export const fadeInLeft = {
     x: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -157,7 +157,7 @@ export const fadeInRight = {
     x: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -173,7 +173,7 @@ export const scaleIn = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -191,7 +191,7 @@ export const rotateIn = {
     scale: 1,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -207,7 +207,7 @@ export const slideInUp = {
     y: 0,
     transition: {
       duration: 1,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -223,7 +223,7 @@ export const parallaxVariants = {
     y: 0,
     transition: {
       duration: 1.2,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -282,7 +282,7 @@ export const magneticHover = {
   rotate: 5,
   transition: {
     duration: 0.3,
-    ease: 'easeOut',
+    ease: 'easeOut' as const,
   },
 };
 
@@ -297,7 +297,7 @@ export const scrollReveal = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -309,7 +309,7 @@ export const spinner = {
     transition: {
       duration: 1,
       repeat: Infinity,
-      ease: 'linear',
+      ease: 'linear' as const,
     },
   },
 };
@@ -325,7 +325,7 @@ export const bounceIn = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
       type: 'spring',
       bounce: 0.4,
     },
@@ -343,7 +343,7 @@ export const slideFade = {
     x: 0,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
 };
@@ -359,7 +359,7 @@ export const elasticBounce = {
     scale: 1,
     transition: {
       duration: 0.8,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
       type: 'spring',
       bounce: 0.6,
     },
