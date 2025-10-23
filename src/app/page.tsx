@@ -207,18 +207,42 @@ export default function Home() {
               </motion.div>
 
               <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-                <span className="block text-2xl lg:text-3xl text-amber-700 font-semibold mb-4">
-                  BOURBON HUB CAMPAIGN 2025-2026
+                <span className="block text-4xl lg:text-5xl text-amber-700 font-semibold mb-4">
+                  The Bourbon Hub
                 </span>
-                <span className="block text-3xl lg:text-4xl text-slate-900 font-medium">
-                  Bibb & Tucker + Redemption
+                <span className="block text-2xl lg:text-3xl text-slate-700 font-medium mb-6">
+                  Where Authority Meets Innovation
                 </span>
           </h1>
 
               <p className="text-xl text-slate-900 mb-8 max-w-3xl font-medium leading-relaxed">
-                <strong>Establishing Deutsch Family Wine & Spirits as the bourbon authority during the industry's most critical sales period.</strong> An integrated digital campaign that positions Bibb & Tucker and Redemption as the essential voices in American whiskey through strategic storytelling on Whisky Advocate.
+                <strong>Establishing Deutsch Family Wine & Spirits as THE bourbon voice during the industry's most critical sales period.</strong>
               </p>
 
+              <div className="text-lg text-slate-800 mb-8">
+                <div className="font-semibold text-amber-700 mb-2">Bibb & Tucker + Redemption</div>
+                <div className="font-medium">November 15, 2025 - March 31, 2026</div>
+              </div>
+
+              {/* Key Stats Visual Treatment */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                  <div className="text-2xl font-bold text-amber-700">$309,000</div>
+                  <div className="text-sm font-medium text-slate-800">Total Investment</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                  <div className="text-2xl font-bold text-amber-700">4.5 Months</div>
+                  <div className="text-sm font-medium text-slate-800">Sustained Presence</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                  <div className="text-2xl font-bold text-amber-700">2 Brands</div>
+                  <div className="text-sm font-medium text-slate-800">1 Unified Story</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center">
+                  <div className="text-2xl font-bold text-amber-700">Peak Season</div>
+                  <div className="text-sm font-medium text-slate-800">Bourbon Capture</div>
+                </div>
+              </div>
               
             </motion.div>
 
@@ -592,6 +616,116 @@ export default function Home() {
                 </p>
               </div>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Strategic Opportunity */}
+      <section id="strategic-opportunity" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Beyond Advertising: Building Bourbon Authority
+            </h2>
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-medium leading-relaxed">
+              <strong>The bourbon category is crowded. Every brand is shouting. Every distillery claims heritage. Every expression promises craft.</strong>
+            </p>
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-medium leading-relaxed mt-4">
+              <strong>How does Deutsch Family Wine & Spirits rise above the noise?</strong>
+            </p>
+            <p className="text-2xl text-amber-700 font-semibold mt-6">
+              Not by shouting louder. By becoming the authority.
+            </p>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+            >
+              <h3 className="text-3xl font-semibold text-slate-900 mb-6 text-center">THE BOURBON HUB</h3>
+              <p className="text-lg text-slate-800 mb-6 font-medium leading-relaxed">
+                A dedicated digital destination on Whisky Advocate and Wine Enthusiast where two complementary bourbon brands—Bibb & Tucker and Redemption—tell one unified story about American bourbon excellence.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div className="bg-amber-50/50 rounded-xl p-6">
+                  <div className="text-2xl font-semibold text-amber-700 mb-2">This isn't a campaign.</div>
+                  <div className="text-slate-800 font-medium">It's a platform.</div>
+                </div>
+                <div className="bg-amber-50/50 rounded-xl p-6">
+                  <div className="text-2xl font-semibold text-amber-700 mb-2">This isn't advertising.</div>
+                  <div className="text-slate-800 font-medium">It's authority-building.</div>
+                </div>
+                <div className="bg-amber-50/50 rounded-xl p-6">
+                  <div className="text-2xl font-semibold text-amber-700 mb-2">This isn't a microsite.</div>
+                  <div className="text-slate-800 font-medium">It's your permanent address.</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <div className="grid lg:grid-cols-3 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">ONE UNIFIED STORY</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  Instead of two separate campaigns competing for attention, Bibb & Tucker and Redemption share one powerful platform.
+                </p>
+                <p className="text-slate-800 font-semibold mt-4">
+                  The result? Double the brand presence. Half the noise. One authoritative voice.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">STRATEGIC TIMING</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  November through March isn't random—it's the bourbon sweet spot covering three distinct buying cycles:
+                </p>
+                <ul className="text-slate-800 font-medium mt-4 space-y-1">
+                  <li>• Holiday Gifting Season (Nov-Dec)</li>
+                  <li>• New Year Momentum (Jan-Feb)</li>
+                  <li>• Spring Festival Season (Feb-Mar)</li>
+                </ul>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">THE RIGHT AUDIENCE</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  Whisky Advocate and Wine Enthusiast readers aren't casual drinkers:
+                </p>
+                <ul className="text-slate-800 font-medium mt-4 space-y-1">
+                  <li>• HHI $150K+ (60% of readership)</li>
+                  <li>• Age 35-65 (peak bourbon spending years)</li>
+                  <li>• Active enthusiasts seeking knowledge</li>
+                  <li>• Brand advocates who influence networks</li>
+                </ul>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -1150,6 +1284,107 @@ export default function Home() {
                 <p className="text-slate-800 font-light text-sm leading-relaxed">{item.desc}</p>
                 </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gold Roast Differentiator */}
+      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-semibold text-slate-900 mb-6">
+              Coffee Culture Meets Bourbon Heritage
+            </h2>
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed">
+              <strong>The Innovation That Drives Discovery</strong>
+            </p>
+          </motion.div>
+
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50 mb-12"
+            >
+              <h3 className="text-2xl font-semibold text-slate-900 mb-6">Why Gold Roast Changes Everything</h3>
+              <p className="text-lg text-slate-800 mb-6 font-medium leading-relaxed">
+                Bourbon marketing faces a fundamental challenge: How do you stand out when every brand claims heritage, craft, and quality?
+              </p>
+              <p className="text-lg text-slate-800 mb-6 font-semibold">
+                Gold Roast solves this with genuine innovation that creates CONVERSATION.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-semibold text-amber-700 mb-4">The Partnership Story</h4>
+                  <p className="text-slate-800 font-medium leading-relaxed mb-4">
+                    Muletown Coffee's exclusive roast → Bibb & Tucker barrels
+                  </p>
+                  <p className="text-slate-800 font-medium leading-relaxed">
+                    This isn't just a flavor innovation. It's a PARTNERSHIP STORY that bridges two premium beverage cultures. It creates content opportunities, cross-promotional possibilities, and dual-category appeal.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-xl font-semibold text-amber-700 mb-4">Content Opportunities</h4>
+                  <ul className="text-slate-800 font-medium space-y-2">
+                    <li>• "From Bean to Barrel" production story</li>
+                    <li>• Coffee-bourbon pairing guides</li>
+                    <li>• Barista and bartender collaborations</li>
+                    <li>• Morning-to-evening consumption narratives</li>
+                    <li>• Cross-category consumer education</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <div className="grid lg:grid-cols-3 gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">Coffee Enthusiasts</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  Curious about bourbon, seeking new flavor territories, and open to premium beverage exploration.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">Bourbon Drinkers</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  Exploring new territories, seeking cocktail differentiation, and looking for conversation-starting expressions.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+                viewport={{ once: true }}
+                className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50"
+              >
+                <h4 className="text-xl font-semibold text-amber-700 mb-4">Gift Buyers</h4>
+                <p className="text-slate-800 font-medium leading-relaxed">
+                  Wanting something memorable, seeking unique gifts, and looking for genuinely new bourbon stories.
+                </p>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
