@@ -3,6 +3,8 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import InvestmentSection from '@/components/InvestmentSection';
+import CampaignStrategy from '@/components/CampaignStrategy';
 import BourbonHub from '@/components/BourbonHub';
 import Timeline from '@/components/Timeline';
 import WhereToBuy from '@/components/WhereToBuy';
@@ -33,6 +35,8 @@ export default function Home() {
       >
         <Navigation />
         <Hero />
+        <InvestmentSection />
+        <CampaignStrategy />
         <BourbonHub />
         <Timeline />
         <WhereToBuy />

@@ -55,7 +55,7 @@ export default function Hero() {
             variants={fadeInUp}
           >
             <span className="text-bourbon-amber text-sm font-medium tracking-widest uppercase">
-              November 15, 2025 - March 31, 2026
+              ✨ 2025-2026 Premium Marketing Program
             </span>
           </motion.div>
           <motion.h1 
@@ -67,21 +67,58 @@ export default function Hero() {
             </span>
           </motion.h1>
           <motion.p 
-            className="text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed text-amber-100/90 font-light"
+            className="text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed text-amber-100/90 font-light mb-8"
             variants={fadeInUp}
           >
-            Where innovation meets heritage. Where craft meets culture. 
-            Discover the complete bourbon story.
+            An integrated marketing program that positions Bibb & Tucker and Redemption as leading bourbon brands through strategic digital dominance and sophisticated storytelling.
           </motion.p>
+          
+          {/* Key Metrics */}
+          <motion.div 
+            className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mb-12"
+            variants={staggerItem}
+          >
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-bourbon-amber mb-2">4.5</div>
+              <div className="text-amber-200/80 text-sm font-medium tracking-widest uppercase">Months</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-bourbon-amber mb-2">5</div>
+              <div className="text-amber-200/80 text-sm font-medium tracking-widest uppercase">Articles</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-bourbon-amber mb-2">1</div>
+              <div className="text-amber-200/80 text-sm font-medium tracking-widest uppercase">Digital Hub</div>
+            </div>
+          </motion.div>
         </motion.div>
           
-        {/* Premium Brand Cards */}
+        {/* Strategic Vision */}
         <motion.div 
-          className="grid md:grid-cols-2 gap-8 mb-16 max-w-5xl mx-auto"
+          className="max-w-4xl mx-auto mb-16"
+          variants={staggerItem}
+        >
+          <motion.h2 
+            className="text-3xl md:text-4xl font-bold text-amber-200 mb-6"
+            variants={fadeInUp}
+          >
+            Strategic Vision
+          </motion.h2>
+          <motion.p 
+            className="text-lg md:text-xl text-amber-100/90 leading-relaxed"
+            variants={fadeInUp}
+          >
+            One unified story across all touchpoints, creating an immersive brand experience that elevates Bibb & Tucker and Redemption to the pinnacle of luxury bourbon marketing.
+          </motion.p>
+        </motion.div>
+
+        {/* Three Pillars */}
+        <motion.div 
+          className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto"
           variants={staggerItem}
         >
           <motion.div 
-            className="premium-card p-8 group"
+            className="premium-card p-8 text-center"
             variants={fadeInUp}
             whileHover={{ 
               scale: 1.05, 
@@ -91,120 +128,98 @@ export default function Hero() {
             whileTap={{ scale: 0.98 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
           >
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-lg">B&T</span>
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-amber-200">
-                  Bibb & Tucker
-                </h2>
-              </div>
-              <p className="text-amber-100/80 mb-6 text-lg leading-relaxed">
-                Three expressions, one powerful narrative. Innovation meets tradition.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mr-3" />
-                  <span className="font-medium">Gold Roast</span>
-                  <span className="ml-auto text-amber-400/70">Coffee Culture Crossover</span>
-                </div>
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mr-3" />
-                  <span className="font-medium">Double Char</span>
-                  <span className="ml-auto text-amber-400/70">Bold Grilling Flavors</span>
-                </div>
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full mr-3" />
-                  <span className="font-medium">Classic 6</span>
-                  <span className="ml-auto text-amber-400/70">Refined Sophistication</span>
-                </div>
-              </div>
-            </motion.div>
-            
-            <motion.div 
-              className="premium-card p-8 group"
-              variants={fadeInUp}
-              whileHover={{ 
-                scale: 1.05, 
-                y: -10,
-                boxShadow: '0 25px 50px -12px rgba(217, 119, 6, 0.3)'
-              }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.3, ease: 'easeOut' }}
-            >
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-white font-bold text-lg">R</span>
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-amber-200">
-                  Redemption
-                </h2>
-              </div>
-              <p className="text-amber-100/80 mb-6 text-lg leading-relaxed">
-                Pre-Prohibition craftsmanship meets modern palates.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-red-500 rounded-full mr-3" />
-                  <span className="font-medium">Heritage</span>
-                  <span className="ml-auto text-amber-400/70">Pre-Prohibition Craft</span>
-                </div>
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-red-500 rounded-full mr-3" />
-                  <span className="font-medium">Authenticity</span>
-                  <span className="ml-auto text-amber-400/70">Small Batch Integrity</span>
-                </div>
-                <div className="flex items-center text-amber-300">
-                  <div className="w-2 h-2 bg-red-500 rounded-full mr-3" />
-                  <span className="font-medium">Craft</span>
-                  <span className="ml-auto text-amber-400/70">Made Right</span>
-                </div>
-              </div>
-            </motion.div>
+            <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-6">
+              <span className="text-white font-bold text-2xl">📱</span>
+            </div>
+            <h3 className="text-2xl font-bold text-amber-200 mb-4">Digital Hub</h3>
+            <p className="text-amber-100/80 leading-relaxed">
+              Central storytelling platform that amplifies the brand message and creates deeper engagement with both bourbon brands.
+            </p>
           </motion.div>
 
-          {/* Call to Action */}
           <motion.div 
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-            variants={staggerItem}
+            className="premium-card p-8 text-center"
+            variants={fadeInUp}
+            whileHover={{ 
+              scale: 1.05, 
+              y: -10,
+              boxShadow: '0 25px 50px -12px rgba(217, 119, 6, 0.3)'
+            }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.3, ease: 'easeOut' }}
           >
-            <motion.a
-              href="#hub"
-              className="premium-button text-lg px-12 py-4 inline-flex items-center group"
-              variants={scaleIn}
-              whileHover={{ 
-                scale: 1.05,
-                boxShadow: '0 20px 40px -10px rgba(217, 119, 6, 0.4)'
-              }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <span>Discover Your Pour</span>
-              <motion.svg 
-                className="w-5 h-5 ml-2" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </motion.svg>
-            </motion.a>
-            <motion.a
-              href="#where-to-buy"
-              className="border-2 border-amber-600/60 text-amber-300 hover:bg-amber-600/10 hover:border-amber-500 px-12 py-4 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm"
-              variants={fadeInUp}
-              whileHover={{ 
-                scale: 1.05,
-                backgroundColor: 'rgba(217, 119, 6, 0.1)',
-                borderColor: 'rgba(217, 119, 6, 0.8)'
-              }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Shop the Collection
-            </motion.a>
+            <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-6">
+              <span className="text-white font-bold text-2xl">📰</span>
+            </div>
+            <h3 className="text-2xl font-bold text-amber-200 mb-4">Editorial Content</h3>
+            <p className="text-amber-100/80 leading-relaxed">
+              Five sponsored articles across Wine Enthusiast & Whisky Advocate, ensuring maximum visibility and strategic positioning.
+            </p>
+          </motion.div>
+
+          <motion.div 
+            className="premium-card p-8 text-center"
+            variants={fadeInUp}
+            whileHover={{ 
+              scale: 1.05, 
+              y: -10,
+              boxShadow: '0 25px 50px -12px rgba(217, 119, 6, 0.3)'
+            }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ duration: 0.3, ease: 'easeOut' }}
+          >
+            <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center mx-auto mb-6">
+              <span className="text-white font-bold text-2xl">🚀</span>
+            </div>
+            <h3 className="text-2xl font-bold text-amber-200 mb-4">Amplification</h3>
+            <p className="text-amber-100/80 leading-relaxed">
+              Strategic digital amplification that extends reach and creates measurable impact across all channels.
+            </p>
           </motion.div>
         </motion.div>
+
+        {/* Call to Action */}
+        <motion.div 
+          className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-16"
+          variants={staggerItem}
+        >
+          <motion.a
+            href="#investment"
+            className="premium-button text-lg px-12 py-4 inline-flex items-center group"
+            variants={scaleIn}
+            whileHover={{ 
+              scale: 1.05,
+              boxShadow: '0 20px 40px -10px rgba(217, 119, 6, 0.4)'
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <span>View Investment</span>
+            <motion.svg 
+              className="w-5 h-5 ml-2" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+              animate={{ x: [0, 5, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </motion.svg>
+          </motion.a>
+          <motion.a
+            href="#strategy"
+            className="border-2 border-amber-600/60 text-amber-300 hover:bg-amber-600/10 hover:border-amber-500 px-12 py-4 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm"
+            variants={fadeInUp}
+            whileHover={{ 
+              scale: 1.05,
+              backgroundColor: 'rgba(217, 119, 6, 0.1)',
+              borderColor: 'rgba(217, 119, 6, 0.8)'
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            View Strategy
+          </motion.a>
+        </motion.div>
+      </motion.div>
 
       {/* Premium Scroll Indicator */}
       <motion.div 
