@@ -2,41 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Bibb & Tucker Colors */
-  --bibb-amber: #D97706;
-  --bibb-warm-brown: #92400E;
-  --bibb-cream: #FEF3C7;
-  --bibb-dark-gray: #1F2937;
+  /* Bibb & Tucker Brand Colors */
+  --bibb-amber-gold: #D97706;
+  --bibb-rich-bourbon: #92400E;
+  --bibb-warm-cream: #FEF3C7;
+  --bibb-deep-charcoal: #1F2937;
+  --bibb-copper: #B45309;
 
-  /* Redemption Colors */
-  --redemption-deep-red: #991B1B;
-  --redemption-rich-brown: #78350F;
+  /* Redemption Brand Colors */
+  --redemption-heritage-red: #991B1B;
+  --redemption-oak-brown: #78350F;
   --redemption-antique-gold: #F59E0B;
-  --redemption-charcoal: #374151;
+  --redemption-slate-gray: #374151;
+  --redemption-mahogany: #7C2D12;
 
-  /* Hub Shared Colors */
-  --bourbon-amber: #B45309;
-  --oak-brown: #92400E;
-  --off-white: #FAFAF9;
-  --deep-black: #0C0A09;
+  /* Bourbon Hub Unified Colors */
+  --hub-dark-bg: #0C0A09;
+  --hub-rich-black: #1C1917;
+  --hub-warm-white: #FAFAF9;
+  --hub-off-white: #F5F5F4;
+  --hub-bourbon-amber: #D97706;
+  --hub-aged-copper: #C2410C;
 
-  /* Enhanced Color Palette */
-  --primary-amber: #D97706;
-  --primary-brown: #92400E;
-  --primary-red: #991B1B;
-  --accent-gold: #F59E0B;
-  --neutral-cream: #FEF3C7;
-  --neutral-charcoal: #374151;
-  --neutral-dark: #1F2937;
+  /* UI Functional Colors */
+  --success-green: #059669;
+  --warning-orange: #F59E0B;
+  --error-red: #DC2626;
+  --info-blue: #3B82F6;
 
+  /* Text Colors */
+  --text-primary-dark: #FAFAF9;
+  --text-secondary-dark: #A8A29E;
+  --text-tertiary-dark: #78716C;
+  --text-primary-light: #1C1917;
+  --text-secondary-light: #57534E;
+  --text-tertiary-light: #78716C;
+
+  /* Background & Foreground */
   --background: #FAFAF9;
-  --foreground: #1F2937;
-  
-  /* Enhanced Readability */
-  --text-primary: #1F2937;
-  --text-secondary: #4B5563;
-  --text-muted: #6B7280;
-  --text-light: #9CA3AF;
+  --foreground: #1C1917;
 }
 
 @theme inline {

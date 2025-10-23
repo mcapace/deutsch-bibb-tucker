@@ -49,22 +49,81 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   const opacity = useTransform(scrollYProgress, [0, 0.2], [1, 0])
   const scale = useTransform(scrollYProgress, [0, 0.2], [1, 0.95])
 
   return (
-    <main className="bg-gradient-to-b from-neutral-50 via-amber-50/30 to-orange-50/20 text-slate-900 overflow-x-hidden">
+    <main className="bg-gradient-to-b from-neutral-50 via-amber-50/30 to-red-50/20 text-slate-900 overflow-x-hidden">
+      
+      {/* Navigation Header */}
+      <motion.nav 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-amber-200/30"
+      >
+        <div className="container mx-auto px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center">
+                <Crown className="text-white" size={20} />
+              </div>
+              <span className="text-xl font-bold text-slate-900">Bourbon Hub</span>
+            </div>
+            <div className="hidden md:flex items-center space-x-8">
+              <button 
+                onClick={() => scrollToSection('hero')}
+                className="text-slate-700 hover:text-amber-600 font-medium transition-colors"
+              >
+                Overview
+              </button>
+              <button 
+                onClick={() => scrollToSection('strategy')}
+                className="text-slate-700 hover:text-amber-600 font-medium transition-colors"
+              >
+                Strategy
+              </button>
+              <button 
+                onClick={() => scrollToSection('products')}
+                className="text-slate-700 hover:text-amber-600 font-medium transition-colors"
+              >
+                Products
+              </button>
+              <button 
+                onClick={() => scrollToSection('investment')}
+                className="text-slate-700 hover:text-amber-600 font-medium transition-colors"
+              >
+                Investment
+              </button>
+              <button 
+                onClick={() => scrollToSection('contact')}
+                className="text-slate-700 hover:text-amber-600 font-medium transition-colors"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </motion.nav>
       
       {/* Progress Bar */}
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-600 via-orange-700 to-amber-800 origin-left z-50"
+        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-600 via-red-700 to-amber-800 origin-left z-50"
         style={{ scaleX: scrollYProgress }}
       />
 
       {/* Hero Section */}
       <motion.section 
+        id="hero"
         style={{ opacity, scale }}
-        className="min-h-screen flex items-center justify-center relative overflow-hidden px-4"
+        className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 pt-20"
       >
         {/* Bourbon Background */}
         <div className="absolute inset-0 overflow-hidden">
@@ -132,7 +191,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-                className="inline-block bg-gradient-to-r from-amber-600 to-orange-700 text-white px-6 py-3 rounded-full text-sm font-semibold mb-6 shadow-lg"
+                className="inline-block bg-gradient-to-r from-amber-600 to-red-700 text-white px-6 py-3 rounded-full text-sm font-semibold mb-6 shadow-lg"
               >
                 🥃 M Shanken Communications | Whisky Advocate Platform
               </motion.div>
@@ -163,7 +222,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">The Bourbon Portfolio</h3>
                 <div className="grid grid-cols-2 gap-8">
                   <div className="text-center">
-                    <div className="bg-gradient-to-r from-amber-600 to-orange-700 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <div className="bg-gradient-to-r from-amber-600 to-red-700 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Coffee className="text-white" size={32} />
                     </div>
                     <h4 className="text-2xl font-bold text-amber-700 mb-2">Bibb & Tucker</h4>
@@ -220,7 +279,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <BookOpen className="text-white" size={32} />
         </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">The Bourbon Hub</h3>
@@ -242,7 +301,7 @@ export default function Home() {
             viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
             >
-              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Globe className="text-white" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Editorial Authority</h3>
@@ -264,7 +323,7 @@ export default function Home() {
             viewport={{ once: true }}
               className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-amber-200/50 hover:shadow-2xl transition-all duration-300"
           >
-              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Zap className="text-white" size={32} />
           </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Integrated Amplification</h3>
@@ -359,7 +418,7 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl p-6 shadow-lg text-white">
+              <div className="bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl p-6 shadow-lg text-white">
                 <h4 className="text-xl font-bold mb-4">Campaign Strategy</h4>
                 <p className="font-semibold">
                   <strong>While we showcase all three expressions, Gold Roast LEADS the narrative.</strong> We're not hiding the other expressions - we're leading with innovation, then revealing the full portfolio depth.
@@ -537,7 +596,7 @@ export default function Home() {
       </section>
 
       {/* Target Audience & Brand Positioning Section */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
+      <section id="strategy" className="py-24 bg-gradient-to-br from-amber-50/50 to-red-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -804,7 +863,7 @@ export default function Home() {
       </section>
 
       {/* Premium Products Section */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/30 to-orange-50/20">
+      <section id="products" className="py-24 bg-gradient-to-br from-amber-50/30 to-red-50/20">
         <div className="container mx-auto px-6">
                   <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -831,7 +890,7 @@ export default function Home() {
             >
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Coffee className="text-white" size={20} />
               </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Gold Roast</h4>
@@ -843,7 +902,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Crown className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Double Char</h4>
@@ -855,7 +914,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Gem className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Classic 6</h4>
@@ -867,7 +926,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Flame className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Heritage</h4>
@@ -879,7 +938,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Cloud className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Small Batch</h4>
@@ -891,7 +950,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Star className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Made Right</h4>
@@ -919,28 +978,28 @@ export default function Home() {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Leaf className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-light text-slate-800 mb-1">Premium Grains</h4>
                     <p className="text-slate-500 font-light text-sm">Finest American corn</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Award className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-light text-slate-800 mb-1">Award Winning</h4>
                     <p className="text-slate-500 font-light text-sm">Industry recognition</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Heart className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-light text-slate-800 mb-1">Hand Crafted</h4>
                     <p className="text-slate-500 font-light text-sm">Artisanal excellence</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-r from-amber-600 to-red-700 rounded-2xl flex items-center justify-center mx-auto mb-3 shadow-lg">
                       <Crown className="text-white" size={24} />
                     </div>
                     <h4 className="text-lg font-light text-slate-800 mb-1">Heritage</h4>
@@ -981,7 +1040,7 @@ export default function Home() {
             >
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Monitor className="text-white" size={20} />
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Interactive Experience</h4>
@@ -993,7 +1052,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30">
                 <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-orange-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
+                  <div className="w-10 h-10 bg-gradient-to-r from-amber-600 to-red-700 rounded-lg flex items-center justify-center mr-3 shadow-lg">
                     <Heart className="text-white" size={20} />
               </div>
                   <h4 className="text-xl font-light text-slate-800">Brand Storytelling</h4>
@@ -1012,7 +1071,7 @@ export default function Home() {
             >
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-r from-amber-600 to-orange-700 rounded-xl flex items-center justify-center mr-4 shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-r from-amber-600 to-red-700 rounded-xl flex items-center justify-center mr-4 shadow-lg">
                     <Globe className="text-white" size={24} />
                     </div>
                   <h3 className="text-2xl font-light text-slate-800">Campaign Strategy</h3>
@@ -1083,7 +1142,7 @@ export default function Home() {
                   viewport={{ once: true }}
                 className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/30 hover:shadow-xl transition-all duration-300"
                 >
-                <div className="w-12 h-12 bg-gradient-to-r from-amber-600 to-orange-700 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+                <div className="w-12 h-12 bg-gradient-to-r from-amber-600 to-red-700 rounded-xl flex items-center justify-center mb-4 shadow-lg">
                   <span className="text-white font-bold text-lg">{item.step}</span>
                   </div>
                 <h3 className="text-lg font-light text-slate-800 mb-2">{item.title}</h3>
@@ -1095,7 +1154,7 @@ export default function Home() {
       </section>
 
       {/* Investment Summary Section */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section id="investment" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1118,7 +1177,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-amber-600 to-orange-700 rounded-3xl p-12 shadow-2xl text-white text-center"
+              className="bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-12 shadow-2xl text-white text-center"
             >
               <h3 className="text-3xl font-bold mb-8">Total Campaign Investment</h3>
               <div className="text-6xl font-bold mb-4">$309,000</div>
@@ -1142,7 +1201,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+      <section id="contact" className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -1167,7 +1226,7 @@ export default function Home() {
                 className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
               >
                 <div className="text-center mb-6">
-                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-red-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                     <span className="text-white font-bold text-2xl">MM</span>
                   </div>
                   <div className="text-2xl font-bold text-slate-900">MIRIAM MORGENSTERN</div>
@@ -1194,7 +1253,7 @@ export default function Home() {
                 className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/50"
               >
                 <div className="text-center mb-6">
-                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-red-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                     <span className="text-white font-bold text-2xl">AW</span>
                   </div>
                   <div className="text-2xl font-bold text-slate-900">ALYSSA WEISS</div>
@@ -1214,7 +1273,7 @@ export default function Home() {
               </motion.div>
             </div>
 
-            <div className="mt-12 bg-gradient-to-r from-amber-600 to-orange-700 rounded-3xl p-8 shadow-2xl text-white max-w-4xl mx-auto">
+            <div className="mt-12 bg-gradient-to-r from-amber-600 to-red-700 rounded-3xl p-8 shadow-2xl text-white max-w-4xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">Campaign Investment: $309,000</h3>
               <p className="text-lg font-semibold mb-6">
                 <strong>November 15, 2025 - March 31, 2026</strong> | Whisky Advocate Platform
