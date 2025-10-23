@@ -109,7 +109,7 @@ export default function Home() {
                     />
                     <span className="text-white font-bold text-2xl" style={{display: 'none'}}>B&T</span>
                   </div>
-                  <div className="text-4xl font-light text-slate-600">×</div>
+                  <div className="text-4xl font-light text-slate-800">×</div>
                   <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl p-4">
                     <img 
                       src="/images/redemption-logo.png" 
@@ -141,31 +141,15 @@ export default function Home() {
                 <span className="block text-2xl lg:text-3xl text-amber-700 font-semibold mb-4">
                   BOURBON HUB CAMPAIGN 2025-2026
                 </span>
-                <span className="block text-3xl lg:text-4xl text-slate-700 font-medium">
+                <span className="block text-3xl lg:text-4xl text-slate-900 font-medium">
                   Bibb & Tucker + Redemption
                 </span>
           </h1>
 
-              <p className="text-xl text-slate-700 mb-8 max-w-3xl font-medium leading-relaxed">
+              <p className="text-xl text-slate-900 mb-8 max-w-3xl font-medium leading-relaxed">
                 <strong>Establishing Deutsch Family Wine & Spirits as the bourbon authority during the industry's most critical sales period.</strong> An integrated digital campaign that positions Bibb & Tucker and Redemption as the essential voices in American whiskey through strategic storytelling on Whisky Advocate.
               </p>
 
-              <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50 mb-8">
-                <div className="grid md:grid-cols-3 gap-6 text-center">
-                  <div>
-                    <div className="text-3xl font-bold text-amber-700 mb-2">$309,000</div>
-                    <div className="text-slate-700 font-semibold">Total Investment</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-amber-700 mb-2">4.5</div>
-                    <div className="text-slate-700 font-semibold">Months</div>
-                  </div>
-                  <div>
-                    <div className="text-3xl font-bold text-amber-700 mb-2">5</div>
-                    <div className="text-slate-700 font-semibold">Sponsored Articles</div>
-                  </div>
-                </div>
-              </div>
               
             </motion.div>
 
@@ -176,29 +160,29 @@ export default function Home() {
               className="relative"
             >
               <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30">
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">Campaign Investment Breakdown</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center">The Bourbon Portfolio</h3>
                 <div className="grid grid-cols-2 gap-8">
                   <div className="text-center">
                     <div className="bg-gradient-to-r from-amber-600 to-orange-700 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
-                      <DollarSign className="text-white" size={32} />
+                      <Coffee className="text-white" size={32} />
                     </div>
-                    <h4 className="text-2xl font-bold text-amber-700 mb-2">$202,000</h4>
-                    <p className="text-slate-700 font-semibold">Bibb & Tucker</p>
-                    <p className="text-slate-600 text-sm mt-2">Innovation meets tradition</p>
+                    <h4 className="text-2xl font-bold text-amber-700 mb-2">Bibb & Tucker</h4>
+                    <p className="text-slate-900 font-semibold">Innovation meets tradition</p>
+                    <p className="text-slate-800 text-sm mt-2">Three expressions, endless possibilities</p>
                   </div>
                   <div className="text-center">
                     <div className="bg-gradient-to-r from-red-700 to-red-900 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <Award className="text-white" size={32} />
                     </div>
-                    <h4 className="text-2xl font-bold text-red-700 mb-2">$107,000</h4>
-                    <p className="text-slate-700 font-semibold">Redemption</p>
-                    <p className="text-slate-600 text-sm mt-2">Pre-Prohibition craft</p>
+                    <h4 className="text-2xl font-bold text-red-700 mb-2">Redemption</h4>
+                    <p className="text-slate-900 font-semibold">Pre-Prohibition craft</p>
+                    <p className="text-slate-800 text-sm mt-2">Heritage you can taste</p>
                   </div>
                 </div>
                 <div className="mt-6 pt-6 border-t border-amber-200">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-slate-900 mb-2">November 15, 2025 - March 31, 2026</div>
-                    <p className="text-slate-700 font-semibold">Campaign Duration</p>
+                    <div className="text-2xl font-bold text-slate-900 mb-2">November 15, 2025 - March 31, 2026</div>
+                    <p className="text-slate-900 font-semibold">Campaign Duration</p>
                   </div>
                 </div>
             </div>
@@ -220,10 +204,10 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               THE STRATEGIC VISION
             </h2>
-            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
               <strong>Establishing Deutsch Family Wine & Spirits as the Authority in Premium American Bourbon</strong>
             </p>
-            <p className="text-lg text-slate-600 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className="text-lg text-slate-800 max-w-4xl mx-auto font-medium leading-relaxed">
               This integrated digital campaign creates a unified bourbon destination across Whisky Advocate platforms, positioning Bibb & Tucker and Redemption as the essential voices in American whiskey during the critical holiday season and New Year bourbon exploration period.
             </p>
           </motion.div>
@@ -240,10 +224,10 @@ export default function Home() {
                 <BookOpen className="text-white" size={32} />
         </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">The Bourbon Hub</h3>
-              <p className="text-slate-700 font-semibold leading-relaxed mb-4">
-                <strong>Central storytelling platform where craft meets culture, heritage meets innovation, and enthusiasts discover their next favorite pour.</strong>
+              <p className="text-slate-900 font-semibold leading-relaxed mb-4">
+                <strong>Central storytelling platform where craft meets culture, heritage meets innovation, and connoisseurs discover their next favorite pour.</strong>
               </p>
-              <ul className="text-slate-600 font-medium space-y-2">
+              <ul className="text-slate-800 font-medium space-y-2">
                 <li>• Interactive flavor profile matcher</li>
                 <li>• Cocktail recipe library with filters</li>
                 <li>• Bourbon 101 educational content</li>
@@ -262,10 +246,10 @@ export default function Home() {
                 <Globe className="text-white" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Editorial Authority</h3>
-              <p className="text-slate-700 font-semibold leading-relaxed mb-4">
+              <p className="text-slate-900 font-semibold leading-relaxed mb-4">
                 <strong>Five sponsored articles across Whisky Advocate that establish editorial credibility and drive qualified traffic to the Hub.</strong>
               </p>
-              <ul className="text-slate-600 font-medium space-y-2">
+              <ul className="text-slate-800 font-medium space-y-2">
                 <li>• 3 Bibb & Tucker articles (Gold Roast focus)</li>
                 <li>• 2 Redemption heritage stories</li>
                 <li>• 800-1,200 words each</li>
@@ -284,10 +268,10 @@ export default function Home() {
                 <Zap className="text-white" size={32} />
           </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Integrated Amplification</h3>
-              <p className="text-slate-700 font-semibold leading-relaxed mb-4">
+              <p className="text-slate-900 font-semibold leading-relaxed mb-4">
                 <strong>Multi-channel digital amplification that drives traffic back to the central Hub story.</strong>
               </p>
-              <ul className="text-slate-600 font-medium space-y-2">
+              <ul className="text-slate-800 font-medium space-y-2">
                 <li>• Email marketing (250K+ subscribers)</li>
                 <li>• Paid social (Instagram, Facebook)</li>
                 <li>• Native advertising extensions</li>
@@ -311,7 +295,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               THE GOLD ROAST OPPORTUNITY
             </h2>
-            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
               <strong>Why Gold Roast Deserves Special Emphasis - It's a Genuine Innovation</strong>
             </p>
           </motion.div>
@@ -328,18 +312,18 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-2">Market Opportunity</h4>
-                  <ul className="text-slate-700 font-medium space-y-1">
+                  <ul className="text-slate-900 font-medium space-y-1">
                     <li>• 68% of Americans drink coffee daily</li>
                     <li>• 30% are bourbon drinkers</li>
-                    <li>• Gold Roast converts coffee enthusiasts to bourbon consumers</li>
+                    <li>• Gold Roast converts coffee connoisseurs to bourbon consumers</li>
                     <li>• Creates a NEW entry point into the category</li>
                   </ul>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-2">Strategic Value</h4>
-                  <ul className="text-slate-700 font-medium space-y-1">
+                  <ul className="text-slate-900 font-medium space-y-1">
                     <li>• Differentiates from EVERY competitor</li>
-                    <li>• Creates conversation beyond bourbon enthusiasts</li>
+                    <li>• Creates conversation beyond bourbon connoisseurs</li>
                     <li>• Attracts younger, diverse consumers</li>
                     <li>• Gives retailers a story to tell</li>
                   </ul>
@@ -356,7 +340,7 @@ export default function Home() {
             >
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/50">
                 <h4 className="text-xl font-bold text-slate-900 mb-4">The Story Writes Itself</h4>
-                <ul className="text-slate-700 font-medium space-y-2">
+                <ul className="text-slate-900 font-medium space-y-2">
                   <li>• "For the coffee lover who thought they didn't like bourbon"</li>
                   <li>• "Your morning ritual meets your evening pour"</li>
                   <li>• "Espresso by day, Gold Roast by night"</li>
@@ -367,7 +351,7 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-amber-200/50">
                 <h4 className="text-xl font-bold text-slate-900 mb-4">Media & PR Appeal</h4>
-                <ul className="text-slate-700 font-medium space-y-2">
+                <ul className="text-slate-900 font-medium space-y-2">
                   <li>• Food and lifestyle media will cover this</li>
                   <li>• Influencer goldmine (coffee + spirits influencers)</li>
                   <li>• Social media shareability</li>
@@ -399,7 +383,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               THE BOURBON PORTFOLIO
             </h2>
-            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed">
               <strong>Two complementary brands representing the complete spectrum of American bourbon excellence.</strong>
             </p>
           </motion.div>
@@ -430,7 +414,7 @@ export default function Home() {
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Gold Roast</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Gold Roast</p>
+                  <p className="text-xs font-semibold text-slate-900">Gold Roast</p>
                 </div>
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -448,7 +432,7 @@ export default function Home() {
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Double Char</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Double Char</p>
+                  <p className="text-xs font-semibold text-slate-900">Double Char</p>
                 </div>
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-amber-100 to-amber-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -466,12 +450,12 @@ export default function Home() {
                     />
                     <div className="text-amber-600 font-bold text-xs" style={{display: 'none'}}>Classic 6</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Classic 6</p>
+                  <p className="text-xs font-semibold text-slate-900">Classic 6</p>
                 </div>
               </div>
               <div className="bg-amber-50/50 rounded-xl p-4">
                 <h4 className="text-lg font-bold text-slate-800 mb-3">Innovation Meets Tradition</h4>
-                <p className="text-slate-700 font-semibold">
+                <p className="text-slate-900 font-semibold">
                   Three expressions, endless possibilities. The bourbon with an expression for every moment, every palate, every occasion.
                 </p>
               </div>
@@ -502,7 +486,7 @@ export default function Home() {
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Rye</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Rye</p>
+                  <p className="text-xs font-semibold text-slate-900">Rye</p>
                 </div>
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -520,7 +504,7 @@ export default function Home() {
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Bourbon</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Bourbon</p>
+                  <p className="text-xs font-semibold text-slate-900">Bourbon</p>
                 </div>
                 <div className="text-center">
                   <div className="w-24 h-32 bg-gradient-to-b from-red-100 to-red-200 rounded-lg flex items-center justify-center mb-2 shadow-lg">
@@ -538,12 +522,12 @@ export default function Home() {
                     />
                     <div className="text-red-600 font-bold text-xs" style={{display: 'none'}}>Single Barrel</div>
                   </div>
-                  <p className="text-xs font-semibold text-slate-700">Single Barrel</p>
+                  <p className="text-xs font-semibold text-slate-900">Single Barrel</p>
                 </div>
               </div>
               <div className="bg-red-50/50 rounded-xl p-4">
                 <h4 className="text-lg font-bold text-slate-800 mb-3">Pre-Prohibition Craft</h4>
-                <p className="text-slate-700 font-semibold">
+                <p className="text-slate-900 font-semibold">
                   Heritage bourbon authority that anchors the category while Bibb & Tucker innovates. Made right since the beginning.
                 </p>
               </div>
@@ -565,10 +549,10 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               TARGET AUDIENCE & BRAND POSITIONING
             </h2>
-            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
-              <strong>Reaching the right bourbon enthusiasts at the perfect moment in their discovery journey.</strong>
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-8">
+              <strong>Reaching the right bourbon connoisseurs at the perfect moment in their discovery journey.</strong>
             </p>
-            <p className="text-lg text-slate-600 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className="text-lg text-slate-800 max-w-4xl mx-auto font-medium leading-relaxed">
               We're hitting consumers at THREE peak intent moments: Holiday Gifting (Nov-Dec), New Year Reset (January), and Valentine's & Spring (Feb-March).
             </p>
           </motion.div>
@@ -585,11 +569,11 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Demographics</h4>
-                  <p className="text-slate-700 font-semibold">Ages 30-55, HHI $75K+, 60% male / 40% female</p>
+                  <p className="text-slate-900 font-semibold">Ages 30-55, HHI $75K+, 60% male / 40% female</p>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Psychographics</h4>
-                  <ul className="text-slate-700 font-semibold space-y-2">
+                  <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Appreciates quality over quantity</li>
                     <li>• Seeks authentic stories and craftsmanship</li>
                     <li>• Entertains at home regularly</li>
@@ -599,7 +583,7 @@ export default function Home() {
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Bourbon Relationship</h4>
-                  <ul className="text-slate-700 font-semibold space-y-2">
+                  <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Owns 3-8 bottles at home</li>
                     <li>• Willing to experiment with new brands</li>
                     <li>• Reads reviews before purchasing</li>
@@ -619,11 +603,11 @@ export default function Home() {
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50">
                 <h4 className="text-xl font-bold text-slate-900 mb-4">Secondary: The Gift Seeker</h4>
                 <div className="bg-amber-50/50 rounded-xl p-4 mb-4">
-                  <p className="text-slate-700 font-semibold leading-relaxed mb-3">
+                  <p className="text-slate-900 font-semibold leading-relaxed mb-3">
                     <strong>Ages 25-60, HHI $60K+, all genders.</strong> Wants to give thoughtful, impressive gifts and seeks guidance on quality purchases.
                   </p>
                 </div>
-                <p className="text-slate-700 font-semibold">
+                <p className="text-slate-900 font-semibold">
                   May not be a bourbon drinker themselves but knows recipients appreciate bourbon and needs education on what makes one bourbon different from another.
                 </p>
               </div>
@@ -631,11 +615,11 @@ export default function Home() {
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-amber-200/50">
                 <h4 className="text-xl font-bold text-slate-900 mb-4">Tertiary: The Coffee Crossover</h4>
                 <div className="bg-amber-50/50 rounded-xl p-4 mb-4">
-                  <p className="text-slate-700 font-semibold leading-relaxed mb-3">
-                    <strong>Ages 25-45, HHI $50K+, urban/suburban.</strong> Coffee enthusiast with foodie sensibility who may think "I don't like whiskey."
+                  <p className="text-slate-900 font-semibold leading-relaxed mb-3">
+                    <strong>Ages 25-45, HHI $50K+, urban/suburban.</strong> Coffee connoisseur with foodie sensibility who may think "I don't like whiskey."
                   </p>
                 </div>
-                <p className="text-slate-700 font-semibold">
+                <p className="text-slate-900 font-semibold">
                   Bourbon-curious but intimidated, needs a familiar entry point (coffee) and could become loyal bourbon consumer with right introduction.
                 </p>
               </div>
@@ -654,11 +638,11 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Brand Voice</h4>
-                  <p className="text-slate-700 font-semibold">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
+                  <p className="text-slate-900 font-semibold">Confident but approachable, innovative but grounded, sophisticated but not pretentious</p>
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Key Themes</h4>
-                  <ul className="text-slate-700 font-semibold space-y-2">
+                  <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Three expressions, endless possibilities</li>
                     <li>• The bourbon that bridges worlds</li>
                     <li>• Innovation rooted in craft</li>
@@ -667,7 +651,7 @@ export default function Home() {
                 </div>
                 <div className="bg-amber-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Tone</h4>
-                  <p className="text-slate-700 font-semibold">Bold, friendly, educational, aspirational</p>
+                  <p className="text-slate-900 font-semibold">Bold, friendly, educational, aspirational</p>
                 </div>
               </div>
             </motion.div>
@@ -683,11 +667,11 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-red-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Brand Voice</h4>
-                  <p className="text-slate-700 font-semibold">Authoritative but accessible, heritage-focused but not old-fashioned</p>
+                  <p className="text-slate-900 font-semibold">Authoritative but accessible, heritage-focused but not old-fashioned</p>
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Key Themes</h4>
-                  <ul className="text-slate-700 font-semibold space-y-2">
+                  <ul className="text-slate-900 font-semibold space-y-2">
                     <li>• Pre-Prohibition authenticity</li>
                     <li>• Small batch integrity</li>
                     <li>• Made right, not just made fast</li>
@@ -696,7 +680,7 @@ export default function Home() {
                 </div>
                 <div className="bg-red-50/50 rounded-xl p-4">
                   <h4 className="text-lg font-bold text-slate-800 mb-3">Tone</h4>
-                  <p className="text-slate-700 font-semibold">Authoritative, warm, craft-focused, timeless</p>
+                  <p className="text-slate-900 font-semibold">Authoritative, warm, craft-focused, timeless</p>
                 </div>
               </div>
             </motion.div>
@@ -704,73 +688,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Investment Summary Section */}
-      <section className="py-24 bg-gradient-to-br from-amber-50/50 to-orange-50/30">
-        <div className="container mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
-              Investment Summary
-            </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
-              A comprehensive investment that delivers maximum impact across all marketing channels.
-            </p>
-          </motion.div>
-
-          <div className="grid lg:grid-cols-3 gap-8">
-          <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-            viewport={{ once: true }}
-              className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30 text-center"
-            >
-              <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                <PenTool className="text-white" size={36} />
-              </div>
-              <h3 className="text-2xl font-light text-slate-800 mb-4">Bibb & Tucker</h3>
-              <div className="text-4xl font-light text-slate-800 mb-2">$202,000</div>
-              <p className="text-slate-600 font-light">Innovation meets tradition</p>
-            </motion.div>
-
-                <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-                  viewport={{ once: true }}
-              className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30 text-center"
-                >
-              <div className="w-20 h-20 bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                <Globe className="text-white" size={36} />
-                  </div>
-              <h3 className="text-2xl font-light text-slate-800 mb-4">Redemption</h3>
-              <div className="text-4xl font-light text-slate-800 mb-2">$107,000</div>
-              <p className="text-slate-600 font-light">Pre-Prohibition craft</p>
-                </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              viewport={{ once: true }}
-              className="bg-gradient-to-r from-amber-600 to-orange-700 rounded-3xl p-8 shadow-2xl text-center"
-            >
-              <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
-                <DollarSign className="text-white" size={36} />
-              </div>
-              <h3 className="text-2xl font-light text-white mb-4">Total Investment</h3>
-              <div className="text-4xl font-light text-white mb-2">$309,000</div>
-              <p className="text-amber-100 font-light">4.5-month program</p>
-            </motion.div>
-
-          </div>
-        </div>
-      </section>
 
       {/* Brand Heritage Section */}
       <section className="py-24 bg-gradient-to-br from-green-50/30 to-amber-50/20">
@@ -785,7 +702,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
               Brand Heritage
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl text-slate-800 max-w-3xl mx-auto font-light leading-relaxed">
               From distillery to finished bourbon - the Deutsch family's commitment to excellence in American whiskey.
             </p>
           </motion.div>
@@ -801,7 +718,7 @@ export default function Home() {
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-green-200/30">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-light text-slate-800 mb-4">Bourbon Craft Excellence</h3>
-                  <p className="text-slate-600 font-light leading-relaxed">
+                  <p className="text-slate-800 font-light leading-relaxed">
                     Our team works directly in the distillery, ensuring every barrel meets our exacting standards for premium bourbon production.
                   </p>
                 </div>
@@ -853,7 +770,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bourbon Production</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Our team works directly in the distillery, ensuring every barrel meets our exacting standards for premium bourbon production.
                 </p>
               </div>
@@ -865,7 +782,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Hand-Crafted Excellence</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   From grain to finished bourbon, every step is overseen by our experienced team to ensure the highest quality standards.
                 </p>
               </div>
@@ -877,7 +794,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Family Heritage</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Multi-generational expertise passed down through the Deutsch family, creating bourbons that honor tradition while embracing innovation.
                 </p>
               </div>
@@ -899,7 +816,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
               Complete Bourbon Portfolio
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl text-slate-800 max-w-3xl mx-auto font-light leading-relaxed">
               The full Bibb & Tucker and Redemption collection - from innovative blends to heritage expressions, each representing generations of bourbon expertise.
             </p>
                   </motion.div>
@@ -919,7 +836,7 @@ export default function Home() {
               </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Gold Roast</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   The bourbon that bridges coffee culture with whiskey appreciation. Small batch bourbon with bold innovation for the coffee lover who thought they didn't like bourbon.
                 </p>
           </div>
@@ -931,7 +848,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Double Char</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Intense refined flavor for those who demand more. The perfect pairing for bold moments and grilling season meets bourbon season.
                 </p>
               </div>
@@ -943,7 +860,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Bibb & Tucker Classic 6</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Sophisticated complex and smooth for low and slow perfection. Six years of patience in every pour, the bourbon that earns its place in your collection.
                 </p>
               </div>
@@ -955,8 +872,8 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Heritage</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
-                  Pre-Prohibition craft meets modern palates. Made right since the beginning, the bourbon enthusiast's bourbon with small batch integrity.
+                <p className="text-slate-800 font-light leading-relaxed">
+                  Pre-Prohibition craft meets modern palates. Made right since the beginning, the bourbon connoisseur's bourbon with small batch integrity.
                 </p>
               </div>
 
@@ -967,7 +884,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Small Batch</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Small batch. Big heritage. Crafted for cocktails, perfect neat. The bourbon that represents the ethereal qualities of hand-crafted excellence.
                 </p>
               </div>
@@ -979,7 +896,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Redemption Made Right</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   The original expression that started it all. Made right, not just made fast. Heritage you can taste with classic bourbon flavors and traditional craftsmanship.
                 </p>
               </div>
@@ -995,7 +912,7 @@ export default function Home() {
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-amber-200/30">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-light text-slate-800 mb-4">The Bourbon Collection</h3>
-                  <p className="text-slate-600 font-light leading-relaxed">
+                  <p className="text-slate-800 font-light leading-relaxed">
                     Each bourbon represents generations of expertise, from grain selection to the final barrel-aged masterpiece.
                   </p>
                 </div>
@@ -1049,7 +966,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
               Digital Hub
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl text-slate-800 max-w-3xl mx-auto font-light leading-relaxed">
               Central storytelling platform that amplifies the brand message and creates deeper engagement with both bourbon brands.
             </p>
           </motion.div>
@@ -1069,7 +986,7 @@ export default function Home() {
                   </div>
                   <h4 className="text-xl font-light text-slate-800">Interactive Experience</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Immersive digital experiences that bring the bourbon story to life through rich media and interactive content.
                 </p>
               </div>
@@ -1081,7 +998,7 @@ export default function Home() {
               </div>
                   <h4 className="text-xl font-light text-slate-800">Brand Storytelling</h4>
                 </div>
-                <p className="text-slate-600 font-light leading-relaxed">
+                <p className="text-slate-800 font-light leading-relaxed">
                   Deep dive into the bourbon heritage, craftsmanship, and the passion that goes into every bottle.
                 </p>
             </div>
@@ -1104,21 +1021,21 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="bg-amber-50/50 rounded-xl p-4">
                     <h4 className="font-medium text-slate-800 mb-2">Central Storytelling Hub</h4>
-                    <p className="text-slate-600 font-light text-sm leading-relaxed">
+                    <p className="text-slate-800 font-light text-sm leading-relaxed">
                       Your complete brand narrative platform where heritage, products, and events come together in one cohesive experience.
                     </p>
                   </div>
                   
                   <div className="bg-amber-50/50 rounded-xl p-4">
                     <h4 className="font-medium text-slate-800 mb-2">Sponsored Content Integration</h4>
-                    <p className="text-slate-600 font-light text-sm leading-relaxed">
+                    <p className="text-slate-800 font-light text-sm leading-relaxed">
                       Editorial articles that validate your brand story with Wine Enthusiast & Whisky Advocate's trusted voice and credibility.
                     </p>
                   </div>
                   
                   <div className="bg-amber-50/50 rounded-xl p-4">
                     <h4 className="font-medium text-slate-800 mb-2">Multi-Channel Amplification</h4>
-                    <p className="text-slate-600 font-light text-sm leading-relaxed">
+                    <p className="text-slate-800 font-light text-sm leading-relaxed">
                       Email, social, and display campaigns that drive traffic back to your central hub story.
                     </p>
                   </div>
@@ -1142,7 +1059,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-light text-slate-800 mb-6">
               The Flywheel
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl text-slate-800 max-w-3xl mx-auto font-light leading-relaxed">
               How all elements work together to create a powerful, self-reinforcing marketing ecosystem.
             </p>
           </motion.div>
@@ -1170,9 +1087,56 @@ export default function Home() {
                   <span className="text-white font-bold text-lg">{item.step}</span>
                   </div>
                 <h3 className="text-lg font-light text-slate-800 mb-2">{item.title}</h3>
-                <p className="text-slate-600 font-light text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-slate-800 font-light text-sm leading-relaxed">{item.desc}</p>
                 </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Investment Summary Section */}
+      <section className="py-24 bg-gradient-to-br from-slate-50 to-amber-50/30">
+        <div className="container mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+              CAMPAIGN INVESTMENT
+            </h2>
+            <p className="text-xl text-slate-900 max-w-3xl mx-auto font-semibold leading-relaxed">
+              <strong>A comprehensive investment that delivers maximum impact across all marketing channels.</strong>
+            </p>
+          </motion.div>
+
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-amber-600 to-orange-700 rounded-3xl p-12 shadow-2xl text-white text-center"
+            >
+              <h3 className="text-3xl font-bold mb-8">Total Campaign Investment</h3>
+              <div className="text-6xl font-bold mb-4">$309,000</div>
+              <p className="text-xl font-semibold mb-8">November 15, 2025 - March 31, 2026</p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mt-8">
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+                  <h4 className="text-2xl font-bold mb-2">Bibb & Tucker</h4>
+                  <div className="text-3xl font-bold mb-2">$202,000</div>
+                  <p className="text-amber-100 font-semibold">Innovation meets tradition</p>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
+                  <h4 className="text-2xl font-bold mb-2">Redemption</h4>
+                  <div className="text-3xl font-bold mb-2">$107,000</div>
+                  <p className="text-amber-100 font-semibold">Pre-Prohibition craft</p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -1190,7 +1154,7 @@ export default function Home() {
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
               M SHANKEN COMMUNICATIONS
               </h2>
-            <p className="text-xl text-slate-700 max-w-4xl mx-auto font-semibold leading-relaxed mb-12">
+            <p className="text-xl text-slate-900 max-w-4xl mx-auto font-semibold leading-relaxed mb-12">
               <strong>Ready to create the most sophisticated bourbon marketing program in the industry?</strong> Let's discuss how we can elevate Bibb & Tucker and Redemption's brand story through strategic Whisky Advocate partnerships.
             </p>
 
@@ -1210,7 +1174,7 @@ export default function Home() {
                   <div className="text-lg text-amber-700 font-semibold">SVP, Senior Marketing Director</div>
                 </div>
 
-                <div className="space-y-4 text-slate-700 font-semibold">
+                <div className="space-y-4 text-slate-900 font-semibold">
                   <div className="flex items-center justify-center">
                     <Phone className="mr-3 text-amber-600" size={20} />
                     <span className="font-bold">P 917-355-4660</span>
@@ -1237,7 +1201,7 @@ export default function Home() {
                   <div className="text-lg text-amber-700 font-semibold">Head of Luxury Advertising</div>
                 </div>
 
-                <div className="space-y-4 text-slate-700 font-semibold">
+                <div className="space-y-4 text-slate-900 font-semibold">
                   <div className="flex items-center justify-center">
                     <Phone className="mr-3 text-amber-600" size={20} />
                     <span className="font-bold">P 917-363-4930</span>
