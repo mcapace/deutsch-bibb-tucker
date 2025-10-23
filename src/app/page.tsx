@@ -166,7 +166,9 @@ export default function Home() {
                       }
                     }}
                   />
-                  <span className="text-white font-bold text-2xl" style={{display: 'none'}}>B&T</span>
+                  <div className="text-white font-bold text-2xl flex items-center justify-center" style={{display: 'none'}}>
+                    <span>B&T</span>
+                  </div>
                   </div>
                   <div className="text-4xl font-light text-slate-800">×</div>
                   <div className="w-40 h-40 bg-gradient-to-br from-red-700 to-red-900 rounded-2xl flex items-center justify-center shadow-2xl p-4">
@@ -182,7 +184,9 @@ export default function Home() {
                         }
                       }}
                     />
-                    <span className="text-white font-bold text-2xl" style={{display: 'none'}}>R</span>
+                      <div className="text-white font-bold text-2xl flex items-center justify-center" style={{display: 'none'}}>
+                        <span>R</span>
+                      </div>
                   </div>
             </div>
           </motion.div>
